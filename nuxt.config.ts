@@ -6,11 +6,16 @@ export default defineNuxtConfig({
  },
  devtools: { enabled: true },
  css: ["~/assets/css/main.css"],
- modules: ["nuxt-medusa"],
+
  postcss: {
   plugins: {
    tailwindcss: {},
    autoprefixer: {},
   },
+ },
+
+ modules: ["nuxt-medusa", "vue3-carousel-nuxt"],
+ carousel: {
+  prefix: "Nuxt",
  },
 })
