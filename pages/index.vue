@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="h-[200vh]">
         <TheHero />
     </div>
 </template>
