@@ -6,16 +6,16 @@
             <!-- logo -->
             <NuxtLink to="/">
                 <!-- site name and logo -->
-                <div class="text-white">
-                    <h1 class="h-12 absolute top-4 left-4 z-20 p-2 text-2xl">Zaman</h1>
+                <div class="text-white absolute z-20 top-4 left-4">
+                    <h1 class="h-12 p-2 text-4xl font-Lexend">zaman</h1>
                 </div>
             </NuxtLink>
 
             <!-- Hambuger menu -->
             <button @click="showMobileNav = !showMobileNav"
-                    class="absolute top-4 right-4 z-20 p-2">
+                    class="absolute top-4 right-4 z-20 p-2 bg-white rounded-full">
                 <IconCSS name="heroicons-solid:menu-alt-3"
-                         class="text-4xl text-white" />
+                         class="text-4xl" />
             </button>
         </div>
 

@@ -12,6 +12,7 @@ module.exports = {
   extend: {
    fontFamily: {
     Lexend: ["Lexend", "sans-serif"],
+    "Cormorant Garamond": ["Cormorant Garamond", "sans-serif"],
    },
   },
  },
