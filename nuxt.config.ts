@@ -19,7 +19,17 @@ export default defineNuxtConfig({
   prefix: "Nuxt",
  },
 
- image: {
-  dir: "assets/images",
+ app: {
+  name: "Zaman Restaurant",
+  head: {
+   title: "Zaman Restaurant",
+   link: [
+    {
+     rel: "stylesheet",
+     href:
+      "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css",
+    },
+   ],
+  },
  },
 })
