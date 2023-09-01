@@ -38,19 +38,19 @@
         </div>
 
         <!-- Your carousel code -->
-        <div class="relative">
+        <div class="relative md:w-full ">
             <NuxtCarousel :autoplay="3000"
                           :items-to-show="1"
                           :wrap-around="true"
                           :transition="2000"
-                          class="h-screen relative">
+                          class="h-screen relative ">
                 <NuxtSlide v-for="slide in data.images"
                            :key="slide"
                            class="h-screen carousel__item">
                     <!-- Zoom effect on hover -->
-                    <div class="h-full overflow-hidden">
+                    <div class="h-full overflow-hidden w-full">
                         <NuxtImg :src="slide.src"
-                                 class="h-full object-cover object-top" />
+                                 class="h-full object-cover object-top w-full" />
                     </div>
                 </NuxtSlide>
 
