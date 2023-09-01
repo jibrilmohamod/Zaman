@@ -18,4 +18,8 @@ export default defineNuxtConfig({
  carousel: {
   prefix: "Nuxt",
  },
+
+ image: {
+  dir: "assets/images",
+ },
 })

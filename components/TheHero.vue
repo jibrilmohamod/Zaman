@@ -16,6 +16,12 @@
     </div>
 </template>
 
-<script setup></script>
+<script setup>
+// create an image array
+
+const { data } = useFetch("/api/hello");
+
+console.log(data);
+</script>
 
 <style lang="scss" scoped></style>
