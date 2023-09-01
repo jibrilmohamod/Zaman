@@ -70,7 +70,7 @@ const images = ref(data);
 }
 
 .opacity-50 {
-    opacity: 0.5;
+    opacity: 0.9;
     /* Adjust the opacity as needed */
 }
 
