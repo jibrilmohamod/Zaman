@@ -5,28 +5,22 @@
         <div class="md:hidden">
             <!-- logo -->
             <NuxtLink to="/">
-                <NuxtImg src="logo.png"
-                         class="h-12 absolute top-4 left-4 z-20" />
+                <!-- site name and logo -->
+                <div class="text-white">
+                    <h1 class="h-12 absolute top-4 left-4 z-20 p-2 text-2xl">Zaman</h1>
+                </div>
             </NuxtLink>
 
             <!-- Hambuger menu -->
             <button @click="showMobileNav = !showMobileNav"
-                    class="absolute top-4 right-4 z-20 bg-white p-2 rounded-full">
-                <svg xmlns="http://www.w3.org/2000/svg"
-                     class="h-6 w-6 text-black"
-                     fill="none"
-                     viewBox="0 0 24 24"
-                     stroke="currentColor">
-                    <path stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M4 6h16M4 12h16m-7 6h7" />
-                </svg>
+                    class="absolute top-4 right-4 z-20 p-2">
+                <IconCSS name="heroicons-solid:menu-alt-3"
+                         class="text-4xl text-white" />
             </button>
         </div>
 
         <!-- Your carousel code -->
-        <div class="outline outline-1 outline-emerald-6hidrelative">
+        <div class="relative">
             <NuxtCarousel :autoplay="4000"
                           :items-to-show="1"
                           :wrap-around="true"
@@ -39,9 +33,7 @@
                              class="h-full object-cover" />
                 </NuxtSlide>
 
-                <template #addons>
-                    <NuxtNavigation />
-                </template>
+                <template #addons> </template>
             </NuxtCarousel>
         </div>
     </div>
