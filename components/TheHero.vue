@@ -32,6 +32,9 @@
                 <p class="text-xl  px-10 text-center font-jost">
                     serving food , harmony and happiness since 1999
                 </p>
+                <NuxtButton name="View Menus">
+
+                </NuxtButton>
 
 
             </div>
