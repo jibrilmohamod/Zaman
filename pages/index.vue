@@ -2,7 +2,7 @@
     <div class="">
         <TheHero />
         <TheAbout />
-        <NuxtMenu />
+        <TheMenu />
     </div>
 </template>
 <script setup>
