@@ -1,8 +1,15 @@
 <template>
-    <div class="h-[200vh]">
+    <div class="">
         <TheHero />
+        <TheAbout />
     </div>
 </template>
-<script setup lang="ts"></script>
+<script setup>
+
+
+import AOS from 'aos';
+onMounted(() => AOS.init());
+
+</script>
 
 <style lang="scss" scoped></style>

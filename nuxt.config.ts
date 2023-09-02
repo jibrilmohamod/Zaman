@@ -20,10 +20,11 @@ export default defineNuxtConfig({
  },
 
  app: {
-  name: "Zaman Restaurant",
   head: {
    title: "Zaman Restaurant",
+
    link: [
+    //  animate.css
     {
      rel: "stylesheet",
      href:

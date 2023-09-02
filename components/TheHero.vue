@@ -29,7 +29,7 @@
                     Delicious Food & Wonderful Eating Experience
                 </div>
 
-                <p class="text-xl  px-10 text-center font-jost">
+                <p class="px-10 text-center font-jost">
                     serving food , harmony and happiness since 1999
                 </p>
                 <NuxtButton name="View Menus">
@@ -94,24 +94,5 @@ const images = ref(data);
 /* Z-index to control stacking order */
 .z-10 {
     z-index: 10;
-}
-
-.carousel__slide--active {
-    opacity: 1;
-    transform: scale(1.1);
-    transition: all 10s ease-in-out;
-}
-
-.carousel__slide--prev {
-    opacity: 1;
-    transform: rotateY(-10deg);
-    transition: all 10s ease-in-out;
-
-}
-
-.carousel__slide--next {
-    opacity: 1;
-    transform: rotateY(10deg);
-    transition: all 10s ease-in-out;
 }
 </style>
