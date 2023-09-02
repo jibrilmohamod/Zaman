@@ -2,6 +2,7 @@ export default defineEventHandler((event) => {
  return {
   menu: {
    starters: {
+    name: "Starters",
     image: "starter_image_url.jpg",
     items: [
      {
@@ -22,7 +23,8 @@ export default defineEventHandler((event) => {
      },
     ],
    },
-   main_dishes: {
+   mainDishes: {
+    name: "Main Dishes",
     image: "main_dishes_image_url.jpg",
     items: [
      {
@@ -43,6 +45,7 @@ export default defineEventHandler((event) => {
     ],
    },
    desserts: {
+    name: "Desserts",
     image: "desserts_image_url.jpg",
     items: [
      {
@@ -63,6 +66,7 @@ export default defineEventHandler((event) => {
     ],
    },
    beverages: {
+    name: "Beverages",
     image: "beverages_image_url.jpg",
     items: [
      {

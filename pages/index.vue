@@ -2,6 +2,7 @@
     <div class="">
         <TheHero />
         <TheAbout />
+        <NuxtMenu />
     </div>
 </template>
 <script setup>
