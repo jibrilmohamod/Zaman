@@ -14,7 +14,7 @@ export default defineNuxtConfig({
   },
  },
 
- modules: ["nuxt-medusa", "vue3-carousel-nuxt", "@nuxt/image", "nuxt-icon"],
+ modules: ["nuxt-medusa", "vue3-carousel-nuxt", "@nuxt/image", "nuxt-icon" ,"@formkit/nuxt" ;],
  carousel: {
   prefix: "Nuxt",
  },
