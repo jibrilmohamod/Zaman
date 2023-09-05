@@ -33,7 +33,6 @@ export default defineNuxtConfig({
   "@nuxt/image",
   "nuxt-icon",
   "@formkit/nuxt",
-  "nuxt-purgecss",
  ],
  carousel: {
   prefix: "Nuxt",
@@ -46,10 +45,9 @@ export default defineNuxtConfig({
    link: [
     //  animate.css
     {
-     rel: "preload",
+     rel: "stylesheet",
      href:
       "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css",
-     as: "style",
     },
     {
      rel: "preconnect",
