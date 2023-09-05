@@ -33,9 +33,14 @@ export default defineNuxtConfig({
   "@nuxt/image",
   "nuxt-icon",
   "@formkit/nuxt",
+  "nuxt-purgecss",
  ],
  carousel: {
   prefix: "Nuxt",
+ },
+
+ purgecss: {
+  enabled: true,
  },
 
  app: {
@@ -45,9 +50,14 @@ export default defineNuxtConfig({
    link: [
     //  animate.css
     {
-     rel: "stylesheet",
+     rel: "preload",
      href:
       "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css",
+     as: "style",
+    },
+    {
+     rel: "preconnect",
+     href: "https://patiotime.loftocean.com/wp-content/uploads/2022",
     },
    ],
   },
