@@ -6,7 +6,7 @@
             <!-- logo -->
             <TheNav />
             <!-- call to action -->
-            <div class="absolute inset-0 flex items-center justify-center flex-col z-20 gap-4">
+            <div class="absolute inset-0 flex items-center justify-center flex-col z-20 gap-4 mt-16">
 
                 <div class=" uppercase font-jost">
                     | Welcome to Zaman |
