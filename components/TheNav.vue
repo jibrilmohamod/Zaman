@@ -4,8 +4,8 @@
             <!-- site name and logo -->
             <div class="text-white absolute z-20 top-5 left-4">
                 <h1 class="h-12 p-2 text-4xl font-Lexend">
-                    <NuxtImg src="/LogoWhite.svg"
-                             class="object-contain h-12" />
+                    <Img src="/LogoWhite.svg"
+                         class="object-contain h-12" />
                 </h1>
             </div>
         </NuxtLink>

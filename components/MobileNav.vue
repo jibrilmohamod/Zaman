@@ -4,7 +4,7 @@
         <!-- logo here and close button -->
         <div class="flex justify-between px-5 pb-10 pt-5 border-b border-gray-800">
             <NuxtLink to="/">
-                <NuxtImg src="/logo.png"
+                <Img src="/logo.png"
                          class="object-contain h-12" />
             </NuxtLink>
 
