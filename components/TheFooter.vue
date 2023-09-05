@@ -3,7 +3,7 @@
         <!-- logo here -->
         <div class="flex">
             <NuxtLink to="/">
-                <Img src="/logo.png"
+                <img src="/logo.png"
                      class="object-contain h-16" />
             </NuxtLink>
         </div>
