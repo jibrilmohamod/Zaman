@@ -25,6 +25,13 @@ export default defineNuxtConfig({
   prefix: "Nuxt",
  },
 
+ image: {
+    provider: 'netlify',
+    netlify: {
+      baseURl: process.env.IMAGES_URL
+    }
+  }
+
  app: {
   head: {
    title: "Zaman Restaurant",
