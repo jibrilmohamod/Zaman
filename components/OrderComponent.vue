@@ -47,7 +47,6 @@
                 <!-- select date  -->
                 <FormKit type="date"
                          name="date"
-                         value="10-10-2021"
                          outer-class="mb-5 bg-transparent"
                          label-class="block mb-1 font-bold text-sm"
                          inner-class="max-w-md border-b border-white mb-1 overflow-hidden focus-within:border-none bg-transparent text-white"
