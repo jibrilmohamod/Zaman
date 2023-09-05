@@ -39,10 +39,6 @@ export default defineNuxtConfig({
   prefix: "Nuxt",
  },
 
- purgecss: {
-  enabled: true,
- },
-
  app: {
   head: {
    title: "Zaman Restaurant",
