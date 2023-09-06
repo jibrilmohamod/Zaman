@@ -43,6 +43,16 @@ export default defineNuxtConfig({
      href:
       "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css",
     },
+    // googleFonts
+    {
+     rel: "preconnect",
+     href: "https://fonts.gstatic.com",
+    },
+    {
+     rel: "stylesheet",
+     href:
+      "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;700&family=Jost:wght@400;500;600;700&family=Lexend:wght@400;500;700&display=swap",
+    },
    ],
   },
  },
