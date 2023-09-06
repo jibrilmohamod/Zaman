@@ -39,9 +39,10 @@ export default defineNuxtConfig({
    link: [
     //  animate.css
     {
-     rel: "stylesheet",
+     rel: "preload",
      href:
       "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css",
+     as: "style",
     },
     // googleFonts
     {
@@ -49,9 +50,10 @@ export default defineNuxtConfig({
      href: "https://fonts.gstatic.com",
     },
     {
-     rel: "stylesheet",
+     rel: "preload",
      href:
       "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;700&family=Jost:wght@400;500;600;700&family=Lexend:wght@400;500;700&display=swap",
+     as: "style",
     },
    ],
   },
