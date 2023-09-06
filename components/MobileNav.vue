@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-black  z-50 fixed h-[100vh] w-full">
+    <div class="bg-black  z-50 fixed h-[100vh] w-full text-white">
 
         <!-- logo here and close button -->
         <div class="flex justify-between px-5 pb-10 pt-5 border-b border-gray-800">
