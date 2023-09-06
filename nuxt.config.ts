@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   "@": resolve(__dirname, "/"),
  },
  devtools: { enabled: true },
- css: ["~/assets/css/main.css"],
+ css: ["~/assets/css/main.css", "animate.css/animate.min.css"],
 
  postcss: {
   plugins: {
@@ -29,7 +29,6 @@ export default defineNuxtConfig({
   "@nuxt/image",
   "nuxt-icon",
   "@formkit/nuxt",
-  "@nuxtjs/google-fonts",
  ],
 
  //  carousel options
@@ -37,25 +36,10 @@ export default defineNuxtConfig({
   prefix: "Nuxt",
  },
 
- //  google fonts options
- googleFonts: {
-  preconnect: true,
-  preload: true,
-  families: {
-   "Cormorant+Garamond": [400, 500, 700],
-   Jost: [400, 500, 600, 700],
-   Lexend: [400, 500, 700],
-  },
- },
-
  app: {
   pageTransition: { name: "page", mode: "out-in" },
   head: {
    title: "Zaman Restaurant",
-   link: [
-    //  animate.css
-    // googleFonts
-   ],
   },
  },
 })
