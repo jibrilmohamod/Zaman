@@ -52,12 +52,6 @@ export default defineNuxtConfig({
    title: "Zaman Restaurant",
    link: [
     //  animate.css
-    {
-     rel: "preload",
-     href:
-      "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css",
-     as: "style",
-    },
     // googleFonts
    ],
   },
