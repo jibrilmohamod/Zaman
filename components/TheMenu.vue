@@ -24,7 +24,8 @@
              data-aos-duration="1000">
             <NuxtImg loading="lazy"
                      format="webp"
-                     src="https://img.freepik.com/free-photo/side-view-fried-meat-with-french-fries-ketchup_141793-4908.jpg?w=900&t=st=1693829597~exp=1693830197~hmac=91e21abc125eb10ce95968a7a71b17a73805fdca32df2e1e5a97993bc32e1494"
+                     provider="cloudinary"
+                     src="v1694007232/side-view-fried-meat-with-french-fries-ketchup_141793-4908_fv2qfo.jpg"
                      class="w-full h-full object-cover object-top rounded-md" />
         </div>
 

@@ -14,16 +14,10 @@ export default defineNuxtConfig({
   },
  },
  image: {
-  format: ["webp"],
-  screens: {
-   xs: 320,
-   sm: 640,
-   md: 768,
-   lg: 1024,
-   xl: 1280,
-   xxl: 1536,
-   "2xl": 1536,
+  cloudinary: {
+   baseURL: "https://res.cloudinary.com/dckmlqzgd/image/upload/",
   },
+  format: ["webp"],
   loading: "lazy",
  },
 
@@ -42,17 +36,12 @@ export default defineNuxtConfig({
   pageTransition: { name: "page", mode: "out-in" },
   head: {
    title: "Zaman Restaurant",
-
    link: [
     //  animate.css
     {
      rel: "stylesheet",
      href:
       "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css",
-    },
-    {
-     rel: "preconnect",
-     href: "https://patiotime.loftocean.com/wp-content/uploads/2022",
     },
    ],
   },

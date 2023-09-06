@@ -40,7 +40,9 @@
                     <!-- Zoom effect on hover -->
                     <div class="h-full overflow-hidden w-full">
                         <NuxtImg loading="lazy"
+                                 provider="cloudinary"
                                  format="webp"
+                                 sizes="sm:100vw md:50vw lg:400px"
                                  :src="slide.src"
                                  class="h-full object-cover object-top w-full" />
                     </div>

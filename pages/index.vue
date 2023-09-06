@@ -18,7 +18,8 @@
                      data-aos-duration="1000">
                     <NuxtImg loading="lazy"
                              format="webp"
-                             src="https://patiotime.loftocean.com/wp-content/uploads/2022/03/davide-cantelli-jpkfc5_d-DI-unsplash-780x520.jpg"
+                             provider="cloudinary"
+                             src="v1694008223/davide-cantelli-jpkfc5_d-DI-unsplash-780x520_stwaqq.jpg"
                              class="w-full h-full object-cover object-top rounded-md" />
                 </div>
             </template>
@@ -43,7 +44,8 @@
                      data-aos-duration="1000">
                     <NuxtImg loading="lazy"
                              format="webp"
-                             src="https://img.freepik.com/free-photo/dining-table-donated-with-variety-foods-two-blue-bottles-mineral-water_114579-2722.jpg?w=900&t=st=1693858469~exp=1693859069~hmac=afae6ff383c6193c8d8194f9692a2a0b37cd0bc7fdd6d9d5dde5d1ed5058d8e7"
+                             provider="cloudinary"
+                             src="v1694007509/dining-table-donated-with-variety-foods-two-blue-bottles-mineral-water_114579-2722_lb5l53.jpg"
                              class="w-full h-full object-cover object-top rounded-md" />
                 </div>
             </template>
