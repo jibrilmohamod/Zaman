@@ -40,7 +40,7 @@ export default defineNuxtConfig({
  //  google fonts options
  googleFonts: {
   families: {
-   Cormorant: [400, 500, 700],
+   "Cormorant+Garamond": [400, 500, 700],
    Jost: [400, 500, 600, 700],
    Lexend: [400, 500, 700],
   },
@@ -59,20 +59,6 @@ export default defineNuxtConfig({
      as: "style",
     },
     // googleFonts
-    {
-     rel: "preconnect",
-     href: "https://fonts.gstatic.com",
-    },
-    {
-     rel: "preconnect",
-     href: "https://fonts.googleapis.com",
-    },
-    {
-     rel: "preload",
-     href:
-      "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;700&family=Jost:wght@400;500;600;700&family=Lexend:wght@400;500;700&display=swap",
-     as: "style",
-    },
    ],
   },
  },
