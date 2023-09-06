@@ -13,6 +13,8 @@ export default defineNuxtConfig({
    autoprefixer: {},
   },
  },
+
+ //  Nuxt image options for cloudinary
  image: {
   cloudinary: {
    baseURL: "https://res.cloudinary.com/dckmlqzgd/image/upload/",
@@ -27,9 +29,21 @@ export default defineNuxtConfig({
   "@nuxt/image",
   "nuxt-icon",
   "@formkit/nuxt",
+  "@nuxtjs/google-fonts",
  ],
+
+ //  carousel options
  carousel: {
   prefix: "Nuxt",
+ },
+
+ //  google fonts options
+ googleFonts: {
+  families: {
+   Cormorant: [400, 500, 700],
+   Jost: [400, 500, 600, 700],
+   Lexend: [400, 500, 700],
+  },
  },
 
  app: {
@@ -48,6 +62,10 @@ export default defineNuxtConfig({
     {
      rel: "preconnect",
      href: "https://fonts.gstatic.com",
+    },
+    {
+     rel: "preconnect",
+     href: "https://fonts.googleapis.com",
     },
     {
      rel: "preload",
