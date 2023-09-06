@@ -39,6 +39,8 @@ export default defineNuxtConfig({
 
  //  google fonts options
  googleFonts: {
+  preconnect: true,
+  preload: true,
   families: {
    "Cormorant+Garamond": [400, 500, 700],
    Jost: [400, 500, 600, 700],
