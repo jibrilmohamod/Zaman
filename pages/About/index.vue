@@ -3,6 +3,8 @@
         <TheHeader>
             <template #image>
                 <NuxtImg provider="cloudinary"
+                         loading="lazy"
+                         format="webp"
                          src="v1694023560/svitlana-8d1Pcd8vpv0-unsplash_tbaggc.jpg"
                          class="w-full h-full object-cover object-center" />
             </template>
@@ -29,6 +31,7 @@
                              format="webp"
                              sizes="sm:100vw md:50vw lg:400px"
                              provider="cloudinary"
+                             :modifiers="{ effect: 'colorize:30', color: 'black' }"
                              src="v1694088526/2O0A8672_v4rney.webp"
                              class="w-full h-full object-cover object-top rounded-md" />
                 </div>
@@ -39,6 +42,7 @@
                              format="webp"
                              sizes="sm:100vw md:50vw lg:400px"
                              provider="cloudinary"
+                             :modifiers="{ effect: 'colorize:30', color: 'black' }"
                              src="v1694088475/2O0A8688_zfjop8.webp"
                              class="w-full h-full object-cover object-top rounded-md" />
                 </div>
@@ -101,8 +105,9 @@
                      data-aos-duration="1000">
                     <NuxtImg loading="lazy"
                              format="webp"
+                             sizes="sm:100vw md:50vw lg:400px"
                              provider="cloudinary"
-                             src="v1694007509/dining-table-donated-with-variety-foods-two-blue-bottles-mineral-water_114579-2722_lb5l53.jpg"
+                             src="v1694098771/2O0A8697_etgcqe.webp"
                              class="w-full h-full object-cover object-top rounded-md" />
                 </div>
             </template>
