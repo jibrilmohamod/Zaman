@@ -1,5 +1,5 @@
 <template>
-    <div class="">
+    <div class="z-50">
         <NuxtLink to="/">
             <!-- site name and logo -->
             <div class="text-white absolute z-20 top-5 left-4">

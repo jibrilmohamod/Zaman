@@ -58,7 +58,7 @@
 <script setup>
 // create an image array
 
-const { data } = useFetch("/api/images");
+const { data } = await useFetch("/api/images");
 const images = ref(data);
 </script>
 

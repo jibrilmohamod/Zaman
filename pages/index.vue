@@ -63,8 +63,4 @@ onMounted(() => AOS.init());
 
 </script>
 
-<style scoped>
-.font-Cormorant {
-    font-family: "Cormorant Garamond", "sans-serif"
-}
-</style>
+<style scoped></style>

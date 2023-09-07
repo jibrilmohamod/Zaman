@@ -22,22 +22,24 @@
                 Home
             </NuxtLink>
 
-            <NuxtLink to="/menu"
-                      class="text-2xl focus:text-orange-500">
-                Menu
-            </NuxtLink>
-
             <NuxtLink to="/about"
                       class="text-2xl focus:text-orange-500">
                 About
             </NuxtLink>
 
-            <NuxtLink to="/contact"
+
+            <NuxtLink to="/"
+                      class="text-2xl focus:text-orange-500">
+                Menu
+            </NuxtLink>
+
+
+            <NuxtLink to="/"
                       class="text-2xl focus:text-orange-500">
                 Contact
             </NuxtLink>
 
-            <NuxtLink to="/contact"
+            <NuxtLink to="/"
                       class="text-2xl focus:text-orange-500">
                 Order Now
             </NuxtLink>
