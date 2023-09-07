@@ -1,5 +1,5 @@
 <template>
-    <div class="pt-10 pl-6 pr-3 pb-4">
+    <div class="pt-8 pl-6 pr-3 pb-4">
 
         <!-- small text with line to its right -->
         <div class=" flex items-center justify-between">

@@ -1,6 +1,8 @@
 <template>
   <div class="main font-Cormorant">
     <NuxtPage />
+    <OrderComponent />
+    <TheFooter />
   </div>
 </template>
 <style>

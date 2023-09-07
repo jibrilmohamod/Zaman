@@ -28,7 +28,7 @@
             </NuxtLink>
 
 
-            <NuxtLink to="/"
+            <NuxtLink to="/menu"
                       class="text-2xl focus:text-orange-500">
                 Menu
             </NuxtLink>
