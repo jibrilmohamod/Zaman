@@ -12,6 +12,8 @@
             </template>
         </TheHeader>
 
+        <the-menu></the-menu>
+
 
     </div>
 </template>
