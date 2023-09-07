@@ -12,7 +12,7 @@
             </template>
         </TheHeader>
 
-        <the-menu></the-menu>
+        <TheMenu class="py-8" />
 
 
     </div>

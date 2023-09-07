@@ -2,9 +2,13 @@
     <div>
         <div class="flex justify-between py-4 gap-2 ">
             <!-- Item Image  -->
-            <div class="w-[100px] h-[100px] basis-1/5">
-                <img src="https://via.placeholder.com/100"
-                     alt="item image">
+            <div class="basis-1/5">
+                <NuxtImg :src="image"
+                         :alt="name"
+                         provider="cloudinary"
+                         loading="lazy"
+                         format="webp"
+                         class="object-cover w-[100px] h-[60px]" />
             </div>
             <!-- Item Name and Details  -->
             <div class="flex flex-col gap-2 basis-3/5">
@@ -31,15 +35,24 @@
 </template>
 
 <script setup>
-defineProps(
-    [
-        'name',
-        'ingredients',
-        'price'
-    ]
-)
-
-// get menu items from api
+defineProps({
+    name: {
+        type: String,
+        default: 'Item Name'
+    },
+    ingredients: {
+        type: String,
+        default: 'Item Ingredients'
+    },
+    price: {
+        type: String,
+        default: '$0.00'
+    },
+    image: {
+        type: String,
+        default: 'v1694095332/2O0A2492_xhfbyj.webp'
+    }
+})
 
 
 </script>
