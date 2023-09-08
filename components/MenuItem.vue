@@ -7,6 +7,7 @@
                          :alt="name"
                          provider="cloudinary"
                          loading="lazy"
+                         sizes="sm:100vw md:50vw lg:400px"
                          format="webp"
                          class="object-cover w-[100px] h-[60px]" />
             </div>
