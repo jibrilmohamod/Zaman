@@ -125,6 +125,16 @@
     </div>
 </template>
 
-<script setup></script>
+<script setup>
+useSeoMeta(
+    {
+        title: 'About Us | Zaman Restaurant',
+        description: 'Zaman Restaurant is located in the heart of Nairobi city, surrounded by the most popular tourist attractions. We are open every day from 9am to 11pm.',
+        ogTitle: 'About Us | Zaman Restaurant',
+        ogDescription: 'Zaman Restaurant is located in the heart of Nairobi city, surrounded by the most popular tourist attractions. We are open every day from 9am to 11pm.',
+    }
+)
+
+</script>
 
 <style lang="scss" scoped></style>

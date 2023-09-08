@@ -5,6 +5,7 @@
             <div class="text-white absolute z-20 top-5 left-4">
                 <h1 class="h-12 p-2 text-4xl font-Lexend">
                     <img src="/accent.svg"
+                         alt="logo"
                          class="object-contain h-12 w-full" />
                 </h1>
             </div>
