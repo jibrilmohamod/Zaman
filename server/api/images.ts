@@ -7,11 +7,11 @@ export default defineEventHandler((event) => {
    },
    {
     name: "image2.png",
-    src: "v1694008255/louis-hansel-sQDTlaADDGM-unsplash_betuun.jpg",
+    src: "v1694095366/2O0A2745_kh9t2d.webp",
    },
    {
-    name: "image3.jpeg",
-    src: "v1694008244/emanuel-ekstrom-3-4eMmRBXjA-unsplash_ubew5b.jpg",
+    name: "image4.jpeg",
+    src: "v1694095334/2O0A2486_sqm9hq.webp",
    },
   ],
  }

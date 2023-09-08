@@ -5,7 +5,10 @@
                 <NuxtImg provider="cloudinary"
                          loading="lazy"
                          format="webp"
-                         src="v1694023560/svitlana-8d1Pcd8vpv0-unsplash_tbaggc.jpg"
+                         alt="image"
+                         sizes="sm:100vw md:50vw lg:400px"
+                         :modifiers="{ effect: 'colorize:30', color: 'black' }"
+                         src="v1694095370/2O0A8677_x3a9xc.webp"
                          class="w-full h-full object-cover object-center" />
             </template>
         </TheHeader>
@@ -29,6 +32,7 @@
                      data-aos-duration="1000">
                     <NuxtImg loading="lazy"
                              format="webp"
+                             alt="image"
                              sizes="sm:100vw md:50vw lg:400px"
                              provider="cloudinary"
                              :modifiers="{ effect: 'colorize:30', color: 'black' }"
@@ -40,6 +44,7 @@
                      data-aos-duration="1000">
                     <NuxtImg loading="lazy"
                              format="webp"
+                             alt="image"
                              sizes="sm:100vw md:50vw lg:400px"
                              provider="cloudinary"
                              :modifiers="{ effect: 'colorize:30', color: 'black' }"
@@ -66,6 +71,7 @@
                      data-aos-duration="1000">
                     <NuxtImg loading="lazy"
                              format="webp"
+                             alt="image"
                              sizes="sm:100vw md:50vw lg:400px"
                              provider="cloudinary"
                              :modifiers="{ effect: 'colorize:30', color: 'black' }"
@@ -78,6 +84,7 @@
                      data-aos-duration="1000">
                     <NuxtImg loading="lazy"
                              format="webp"
+                             alt="image"
                              sizes="sm:100vw md:50vw lg:400px"
                              provider="cloudinary"
                              :modifiers="{ effect: 'colorize:30', color: 'black' }"
@@ -106,6 +113,7 @@
                      data-aos-duration="1000">
                     <NuxtImg loading="lazy"
                              format="webp"
+                             alt="image"
                              sizes="sm:100vw md:50vw lg:400px"
                              provider="cloudinary"
                              src="v1694098771/2O0A8697_etgcqe.webp"

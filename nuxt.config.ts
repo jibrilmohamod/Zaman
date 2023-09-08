@@ -23,18 +23,7 @@ export default defineNuxtConfig({
   loading: "lazy",
  },
 
- modules: [
-  "nuxt-medusa",
-  "vue3-carousel-nuxt",
-  "@nuxt/image",
-  "nuxt-icon",
-  "@formkit/nuxt",
- ],
-
- //  carousel options
- carousel: {
-  prefix: "Nuxt",
- },
+ modules: ["@nuxt/image", "nuxt-icon", "@formkit/nuxt"],
 
  app: {
   pageTransition: { name: "page", mode: "out-in" },

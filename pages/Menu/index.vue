@@ -5,6 +5,7 @@
                 <NuxtImg provider="cloudinary"
                          format="webp"
                          loading="lazy"
+                         alt="image"
                          sizes="sm:100vw md:50vw lg:400px"
                          :modifiers="{ effect: 'colorize:30', color: 'black' }"
                          src="v1694086227/restaurant-hall-with-red-brick-walls-wooden-tables-pipes-ceiling_140725-8504_axffmx.jpg"

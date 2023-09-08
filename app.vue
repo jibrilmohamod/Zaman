@@ -3,6 +3,7 @@
     <NuxtPage />
     <OrderComponent />
     <TheFooter />
+    <ScrollTop />
   </div>
 </template>
 <style>

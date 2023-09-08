@@ -1,15 +1,21 @@
 <template>
     <div class="relative text-white">
         <!-- Add a dark overlay -->
-        <div class="absolute inset-0 bg-black opacity-50 z-10"></div>
+        <div class="absolute inset-0 bg-black opacity-50 z-10">
+        </div>
         <div class="md:hidden">
             <!-- logo -->
             <TheNav />
             <!-- call to action -->
             <div class="absolute inset-0 flex items-center justify-center flex-col z-20 gap-4 mt-16">
-
-                <div class=" uppercase font-jost">
-                    | Welcome to Zaman |
+                <div class=" uppercase font-jost flex justify-center items-center gap-2">
+                    <div class="w-16 h-0 outline outline-2">
+                    </div>
+                    <h2 clas>
+                        Welcome to Zaman
+                    </h2>
+                    <div class="w-16 h-0 outline outline-2">
+                    </div>
                 </div>
 
                 <div class="text-[40px] text-center font-semibold leading-tight text-gray-50">
@@ -22,36 +28,19 @@
                 <NuxtButton name="View Menus">
 
                 </NuxtButton>
-
-
             </div>
         </div>
-
-        <!-- Your carousel code -->
-        <div class="relative md:w-full ">
-            <NuxtCarousel :autoplay="3000"
-                          :items-to-show="1"
-                          :wrap-around="true"
-                          :transition="2000"
-                          class="h-screen relative ">
-                <NuxtSlide v-for="slide in data.images"
-                           :key="slide"
-                           class="h-screen carousel__item">
-                    <!-- Zoom effect on hover -->
-                    <div class="h-full overflow-hidden w-full">
-                        <NuxtImg loading="lazy"
-                                 provider="cloudinary"
-                                 format="webp"
-                                 sizes="sm:100vw md:50vw lg:400px"
-                                 :src="slide.src"
-                                 class="h-full object-cover object-top w-full" />
-                    </div>
-                </NuxtSlide>
-
-                <template #addons></template>
-            </NuxtCarousel>
+        <!-- hero image -->
+        <div class="relative h-[100vh]">
+            <NuxtImg loading="lazy"
+                     provider="cloudinary"
+                     format="webp"
+                     alt="hero image"
+                     :modifiers="{ effect: 'colorize:40', color: 'black' }"
+                     sizes="sm:100vw md:50vw lg:400px"
+                     src="v1694095334/2O0A2486_sqm9hq.webp"
+                     class="h-full object-cover object-top w-full" />
         </div>
-
     </div>
 </template>
 
@@ -60,6 +49,11 @@
 
 const { data } = await useFetch("/api/images");
 const images = ref(data);
+//get last image in array
+computed(() => {
+    const lastImage = images.value[images.value.length - 1];
+    console.log(lastImage);
+});
 </script>
 
 <style scoped>
