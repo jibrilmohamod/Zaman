@@ -68,6 +68,7 @@
                              format="webp"
                              sizes="sm:100vw md:50vw lg:400px"
                              provider="cloudinary"
+                             :modifiers="{ effect: 'colorize:30', color: 'black' }"
                              src="v1694095332/2O0A2488_1_a8ds1k.webp"
                              class="w-full h-full object-cover rounded-md" />
                 </div>

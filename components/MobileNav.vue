@@ -34,7 +34,7 @@
             </NuxtLink>
 
 
-            <NuxtLink to="/"
+            <NuxtLink to="/contactus"
                       class="text-2xl focus:text-orange-500">
                 Contact
             </NuxtLink>
