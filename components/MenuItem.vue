@@ -9,7 +9,7 @@
                          loading="lazy"
                          sizes="sm:100vw md:50vw lg:400px"
                          format="webp"
-                         class="object-cover w-[100px] h-[60px]" />
+                         class="object-cover w-[100px] h-[70px] rounded-sm shadow-md shadow-black" />
             </div>
             <!-- Item Name and Details  -->
             <div class="flex flex-col gap-2 basis-3/5">
