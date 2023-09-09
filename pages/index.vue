@@ -13,16 +13,32 @@
 
             <!-- Image slot -->
             <template #image>
-                <div class="pt-8 h-64"
+                <div class="pt-8 h-64 md:h-96"
                      data-aos="fade-up"
                      data-aos-duration="1000">
                     <NuxtImg loading="lazy"
                              format="webp"
                              alt="image"
-                             sizes="sm:100vw md:50vw lg:400px"
+                             :modifiers="{ effect: 'colorize:50', color: 'black' }"
+                             sizes="sm:100vw md:50vw lg:600px"
                              provider="cloudinary"
-                             src="v1694008223/davide-cantelli-jpkfc5_d-DI-unsplash-780x520_stwaqq.jpg"
-                             class="w-full h-full object-cover object-top rounded-md" />
+                             src="v1694095333/2O0A2557_ui2lpn.webp"
+                             class="w-full h-full object-cover md:object-cover rounded-md md:shadow-md shadow" />
+                </div>
+            </template>
+
+            <template #image2>
+                <div class="pt-8 h-full w-[70%] m-auto"
+                     data-aos="fade-up"
+                     data-aos-duration="1000">
+                    <NuxtImg loading="lazy"
+                             format="webp"
+                             alt="image"
+                             :modifiers="{ effect: 'colorize:50', color: 'black' }"
+                             sizes="sm:100px md:50vw lg:600px"
+                             provider="cloudinary"
+                             src="v1694095366/2O0A2745_kh9t2d.webp"
+                             class="w-full h-full object-cover md:object-cover rounded-md md:shadow-md shadow" />
                 </div>
             </template>
         </TheAbout>
@@ -41,16 +57,17 @@
 
             <!-- Image slot -->
             <template #image>
-                <div class="pt-8 h-64"
+                <div class="pt-8 h-64 md:h-96"
                      data-aos="fade-up"
                      data-aos-duration="1000">
                     <NuxtImg loading="lazy"
                              format="webp"
                              alt="image"
+                             :modifiers="{ effect: 'colorize:50', color: 'black' }"
                              provider="cloudinary"
-                             sizes="sm:100vw md:50vw lg:400px"
+                             sizes="sm:100vw md:50vw lg:600px"
                              src="v1694007509/dining-table-donated-with-variety-foods-two-blue-bottles-mineral-water_114579-2722_lb5l53.jpg"
-                             class="w-full h-full object-cover object-top rounded-md" />
+                             class="w-full h-full object-cover md:object-cover rounded-md md:shadow-md shadow" />
                 </div>
             </template>
 

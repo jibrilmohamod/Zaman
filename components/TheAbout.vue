@@ -1,49 +1,53 @@
 <template>
-    <div class="pt-8 pl-6 pr-3 pb-4">
+    <div class="pt-8 pl-6 pr-3 pb-4 md:container md:m-auto md:pt-16 md:flex">
+        <div class="md:w-1/2">
+            <!-- small text with line to its right -->
+            <div class=" flex items-center justify-between md:justify-normal md:gap-10">
+                <h5 class="font-jost uppercase text-[13px] font-[600] tracking-widest text-[#DD5903] w-fit md:text-lg"
+                    id="p">
+                    {{ smallText }}
+                </h5>
+                <div class="w-20 outline outline-1 outline-[#BF926B] justify-self-end mr-5">
+                </div>
+            </div>
 
-        <!-- small text with line to its right -->
-        <div class=" flex items-center justify-between">
-            <p class="font-jost uppercase text-[13px] font-[600] tracking-widest text-[#DD5903] w-fit"
-               id="p">
+            <!-- section header -->
+            <div class="py-4">
+                <h4
+                    class="text-[40px] font-semibold leading-tight uppercase md:text-5xl md:font-[600] md:leading-[60px] md:tracking-wider">
+                    {{ header }}
 
-                {{ smallText }}
-            </p>
-            <div class="w-20 outline outline-1 outline-[#BF926B] justify-self-end mr-5">
+                </h4>
+            </div>
+
+            <!-- section body -->
+            <div class="">
+
+                <!-- paragraph -->
+                <p class="font-jost text-[18px] leading-relaxed tracking-wide text-[#4a4a4b] ">
+
+                    {{ paragraph }}
+                </p>
+
+                <!-- button and image slots -->
+                <div>
+
+                    <!-- Button slot -->
+                    <slot name="button"> </slot>
+
+                    <!-- Image slot -->
+                    <slot name="image"> </slot>
+
+                </div>
             </div>
         </div>
 
-        <!-- section header -->
-        <div class="py-4">
-            <h1 class="text-[40px] font-semibold leading-tight uppercase ">
+        <!-- image slot -->
+        <div class="hidden md:flex justify-center items-center w-1/2">
+            <slot name="image2"> </slot>
 
-                {{ header }}
-
-            </h1>
         </div>
 
-        <!-- section body -->
-        <div class="">
-
-            <!-- paragraph -->
-            <p class="font-jost text-[18px] leading-relaxed tracking-wide text-[#4a4a4b] ">
-
-                {{ paragraph }}
-            </p>
-
-            <!-- button and image slots -->
-            <div class="py-5">
-
-                <!-- Button slot -->
-                <slot name="button"> </slot>
-
-                <!-- Image slot -->
-                <slot name="image"> </slot>
-
-
-
-
-            </div>
-        </div>
 
     </div>
 </template>
@@ -67,9 +71,4 @@ defineProps({
 
 </script>
 
-<style scoped>
-#p {
-    display: inline-block;
-    transform: scale(1, .9);
-}
-</style>
+<style scoped></style>

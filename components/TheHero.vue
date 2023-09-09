@@ -26,7 +26,6 @@
                     serving food , harmony and happiness since 1999
                 </h4>
                 <NuxtButton name="View Menus">
-
                 </NuxtButton>
             </div>
         </div>

@@ -92,7 +92,7 @@
                     <div class="flex justify-end items-center gap-5">
                         <NuxtLink to="/contactus"
                                   class="text-lg font-Lexend hover:">
-                            <ButtonTwo name="Order Now"></ButtonTwo>
+                            <ButtonTwo name="Book A Table"></ButtonTwo>
                         </NuxtLink>
                     </div>
                 </div>
