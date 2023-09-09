@@ -16,35 +16,40 @@
         </div>
 
         <!-- nav links -->
-        <div class="flex flex-col gap-5 py-8 font-jost px-5">
+        <nav class="flex flex-col gap-5 py-8 font-jost px-5">
             <NuxtLink to="/"
-                      class="text-2xl focus:text-orange-500">
+                      class="text-2xl focus:text-orange-500"
+                      aria-label="Nav link">
                 Home
             </NuxtLink>
 
             <NuxtLink to="/about"
-                      class="text-2xl focus:text-orange-500">
+                      class="text-2xl focus:text-orange-500"
+                      aria-label="Nav link">
                 About
             </NuxtLink>
 
 
             <NuxtLink to="/menu"
-                      class="text-2xl focus:text-orange-500">
+                      class="text-2xl focus:text-orange-500"
+                      aria-label="Nav link">
                 Menu
             </NuxtLink>
 
 
             <NuxtLink to="/contactus"
-                      class="text-2xl focus:text-orange-500">
+                      class="text-2xl focus:text-orange-500"
+                      aria-label="Nav link">
                 Contact
             </NuxtLink>
 
             <NuxtLink to="/"
-                      class="text-2xl focus:text-orange-500">
+                      class="text-2xl focus:text-orange-500"
+                      aria-label="Nav link">
                 Order Now
             </NuxtLink>
 
-        </div>
+        </nav>
 
         <!-- social media icons and copyright -->
         <div class="px-5">

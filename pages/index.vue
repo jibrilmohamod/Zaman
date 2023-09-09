@@ -19,6 +19,7 @@
                     <NuxtImg loading="lazy"
                              format="webp"
                              alt="image"
+                             sizes="sm:100vw md:50vw lg:400px"
                              provider="cloudinary"
                              src="v1694008223/davide-cantelli-jpkfc5_d-DI-unsplash-780x520_stwaqq.jpg"
                              class="w-full h-full object-cover object-top rounded-md" />
@@ -47,6 +48,7 @@
                              format="webp"
                              alt="image"
                              provider="cloudinary"
+                             sizes="sm:100vw md:50vw lg:400px"
                              src="v1694007509/dining-table-donated-with-variety-foods-two-blue-bottles-mineral-water_114579-2722_lb5l53.jpg"
                              class="w-full h-full object-cover object-top rounded-md" />
                 </div>

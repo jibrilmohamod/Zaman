@@ -1,5 +1,5 @@
 <template>
-    <button class="py-3 px-6 bg-[#DD5903] font-jost uppercase font-semibold">
+    <button class="py-3 px-6 bg-[#DD5903] font-jost uppercase font-semibold md:text-xl rounded-sm">
         {{ name }}
     </button>
 </template>

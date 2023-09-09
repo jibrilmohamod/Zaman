@@ -21,20 +21,20 @@
         <div class="flex justify-between pb-5">
             <div class="flex">
                 <!-- instagram -->
-                <IconCSS name="akar-icons:instagram-fill"
-                         class="text-xl mr-5" />
+                <Icon name="akar-icons:instagram-fill"
+                      class="text-xl mr-5" />
                 <!-- facebook -->
-                <IconCSS name="akar-icons:facebook-fill"
-                         class="text-xl mr-5" />
+                <Icon name="akar-icons:facebook-fill"
+                      class="text-xl mr-5" />
                 <!-- twitter -->
-                <IconCSS name="akar-icons:twitter-fill"
-                         class="text-xl mr-5" />
+                <Icon name="akar-icons:twitter-fill"
+                      class="text-xl mr-5" />
                 <!-- tiktok -->
-                <IconCSS name="akar-icons:tiktok-fill"
-                         class="text-xl mr-5" />
+                <Icon name="akar-icons:tiktok-fill"
+                      class="text-xl mr-5" />
                 <!-- youtube -->
-                <IconCSS name="akar-icons:youtube-fill"
-                         class="text-xl mr-5" />
+                <Icon name="akar-icons:youtube-fill"
+                      class="text-xl mr-5" />
 
             </div>
         </div>
@@ -65,8 +65,8 @@
 
                 <div class="flex py-2">
                     <div class="pr-3">
-                        <IconCSS name="mdi:location"
-                                 class="text-xl" />
+                        <Icon name="mdi:location"
+                              class="text-xl" />
                     </div>
                     <p class="font-jost">
                         1234, Nairobi, Kenya
@@ -76,8 +76,8 @@
 
                 <div class="flex py-2">
                     <div class="pr-3">
-                        <IconCSS name="mdi:phone"
-                                 class="text-xl" />
+                        <Icon name="mdi:phone"
+                              class="text-xl" />
                     </div>
                     <p class="font-jost">
                         +254 123 456 789
@@ -87,8 +87,8 @@
 
                 <div class="flex py-2">
                     <div class="pr-3">
-                        <IconCSS name="mdi:email"
-                                 class="text-xl" />
+                        <Icon name="mdi:email"
+                              class="text-xl" />
                     </div>
                     <p class="font-jost">
                         <a href="mailto:info@zaman.co.ke">
@@ -145,4 +145,4 @@
 
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="s" scoped></style>
