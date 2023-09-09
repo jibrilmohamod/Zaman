@@ -3,40 +3,45 @@
         <!-- Desktop nav -->
         <div class="hidden md:block absolute h-fit inset-0 z-50 container mx-auto text-white">
             <!-- location , email and phone -->
-            <div class="font-jost border-b flex justify-between rounded-sm text-base">
+            <div class="font-jost border-b border-gray-500 flex justify-between rounded-sm text-base">
                 <!-- location  -->
-                <div class="py-2 border-x rounded-sm px-5 grow flex justify-center items-center w-fit gap-3">
+                <div
+                     class="py-2 border-x border-gray-500 rounded-sm px-5 grow flex justify-center items-center w-fit gap-3">
                     <!-- icon  -->
                     <Icon name="mdi:location"
-                          class="text-white" />
+                          class="text-gray-500" />
                     <!-- text  -->
-                    <a href="">
+                    <a class="text-sm text-gray-400"
+                       href="">
                         Banda Street, Nairobi , Kenya
                     </a>
                 </div>
                 <!-- phone  -->
-                <div class="py-2 border-r rounded-sm px-5 grow flex justify-center items-center w-fit gap-3">
+                <div
+                     class="py-2 border-r border-gray-500 rounded-sm px-5 grow flex justify-center items-center w-fit gap-3">
                     <!-- icon  -->
                     <Icon name="mdi:phone"
-                          class=" text-white" />
+                          class="text-gray-500" />
                     <!-- text  -->
-                    <a href="tel:0745015869">
+                    <a class="text-sm text-gray-400"
+                       href="tel:0745015869">
                         +254 745 015 869
                     </a>
                 </div>
                 <!-- email  -->
-                <div class="py-2 border-r rounded-sm px-5 grow flex justify-center items-center w-fit gap-3">
+                <div
+                     class="py-2 border-r border-gray-500 rounded-sm px-5 grow flex justify-center items-center w-fit gap-3">
                     <!-- icon  -->
                     <Icon name="mdi:email"
-                          class="text-white" />
+                          class="text-gray-500" />
                     <!-- text  -->
-                    <a href="mailto:info@zaman.co.ke"
-                       class="text-white">
+                    <a class="text-sm text-gray-400"
+                       href="mailto:info@zaman.co.ke">
                         info@zaman.co.ke
                     </a>
                 </div>
                 <!-- socials -->
-                <div class="py-2 border-r rounded-sm px-5 grow flex justify-center items-center w-fit">
+                <div class="py-2 border-r border-gray-500 rounded-sm px-5 grow flex justify-center items-center w-fit">
                     <!-- icon  -->
                     <Icon name="mdi:facebook"
                           class="text-white grow hover:text-blue-700" />

@@ -8,7 +8,7 @@
             <TheNav />
             <!-- call to action -->
             <div
-                 class="absolute inset-0 flex items-center justify-center flex-col z-20 gap-4 mt-16 md:container md:m-auto md:pt-10 md:gap-10">
+                 class="absolute inset-0 flex items-center justify-center flex-col z-20 gap-4 mt-16 md:container md:m-auto md:pt-10 xl:pt-20 md:gap-10">
                 <div class=" uppercase font-jost flex justify-center items-center gap-2">
                     <div class="w-16 h-0 outline outline-1 md:w-24">
                     </div>
