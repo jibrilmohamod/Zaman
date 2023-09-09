@@ -118,7 +118,7 @@
             <button class="absolute top-8 right-4 z-20 p-2 bg-white rounded-full text-black"
                     @click="toggleMobileNav()">
                 <Icon name="ci:menu-alt-01"
-                      class="text-3x border-buttonl text-black" />
+                      class="text-3xl text-black" />
 
                 <div class="hidden">
                     {{ showMobile }}
