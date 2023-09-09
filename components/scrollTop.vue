@@ -4,8 +4,8 @@
         <button v-show="showScrollButton"
                 @click="scrollToTop"
                 class="fixed bottom-4 right-4 z-50 p-3 text-white rounded-full bg-black">
-            <IconCSS name="akar-icons:arrow-up"
-                     class="text-2xl" />
+            <Icon name="akar-icons:arrow-up"
+                  class="text-2xl" />
         </button>
     </div>
 </template>

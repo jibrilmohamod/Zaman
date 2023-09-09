@@ -3,20 +3,22 @@
         <!-- Desktop nav -->
         <div class="hidden md:block absolute h-fit inset-0 z-50 container mx-auto text-white">
             <!-- location , email and phone -->
-            <div class="font-jost border-b flex justify-between rounded-sm">
+            <div class="font-jost border-b flex justify-between rounded-sm text-base">
                 <!-- location  -->
                 <div class="py-2 border-x rounded-sm px-5 grow flex justify-center items-center w-fit gap-3">
                     <!-- icon  -->
                     <Icon name="mdi:location"
-                          class="text-lg text-white" />
+                          class="text-white" />
                     <!-- text  -->
-                    Banda Street, Nairobi, Kenya
+                    <a href="">
+                        Banda Street, Nairobi , Kenya
+                    </a>
                 </div>
                 <!-- phone  -->
                 <div class="py-2 border-r rounded-sm px-5 grow flex justify-center items-center w-fit gap-3">
                     <!-- icon  -->
                     <Icon name="mdi:phone"
-                          class="text-lg text-white" />
+                          class=" text-white" />
                     <!-- text  -->
                     <a href="tel:0745015869">
                         +254 745 015 869
@@ -26,7 +28,7 @@
                 <div class="py-2 border-r rounded-sm px-5 grow flex justify-center items-center w-fit gap-3">
                     <!-- icon  -->
                     <Icon name="mdi:email"
-                          class="text-lg text-white" />
+                          class="text-white" />
                     <!-- text  -->
                     <a href="mailto:info@zaman.co.ke"
                        class="text-white">
@@ -37,16 +39,17 @@
                 <div class="py-2 border-r rounded-sm px-5 grow flex justify-center items-center w-fit">
                     <!-- icon  -->
                     <Icon name="mdi:facebook"
-                          class="text-lg text-white grow hover:text-blue-700" />
+                          class="text-white grow hover:text-blue-700" />
                     <!-- icon  -->
                     <Icon name="mdi:instagram"
-                          class="text-lg text-white grow hover:text-pink-700" />
+                          class="text-white grow hover:text-pink-700" />
                     <!-- icon  -->
                     <Icon name="mdi:twitter"
-                          class="text-lg text-white grow hover:text-sky-600" />
+                          class="text-white grow hover:text-sky-600" />
                     <!-- tiktok -->
                     <Icon name="akar-icons:tiktok-fill"
-                          class="text-lg text-white grow hover:text-fuchsia-600" />
+                          class="
+                          text-white grow hover:text-fuchsia-600" />
                 </div>
             </div>
             <!-- navigation and logo -->
@@ -64,39 +67,40 @@
                     <!-- nav items -->
                     <div class="flex-grow flex justify-end items-center gap-5">
                         <NuxtLink to="/"
-                                  class="text-lg font-Lexend hover:text-blue-700">
+                                  class="text-lg border-button font-Lexend">
                             Home
                         </NuxtLink>
                         <NuxtLink to="/about"
-                                  class="text-lg font-Lexend hover:text-blue-700">
+                                  class="text-lg border-button font-Lexend">
                             About
                         </NuxtLink>
-                        <NuxtLink to="/services"
-                                  class="text-lg font-Lexend hover:text-blue-700">
-                            Services
+                        <NuxtLink to="/menu"
+                                  class="text-lg border-button font-Lexend">
+                            Menu
                         </NuxtLink>
-                        <NuxtLink to="/contact"
-                                  class="text-lg font-Lexend hover:text-blue-700">
+                        <NuxtLink to="/contactus"
+                                  class="border-button text-lg font-Lexend ">
                             Contact
                         </NuxtLink>
                     </div>
                     <!-- button -->
                     <div class="flex justify-end items-center gap-5">
-                        <NuxtLink to="/contact"
+                        <NuxtLink to="/contactus"
                                   class="text-lg font-Lexend hover:">
-                            <button class="bg-blue-700 text-white rounded-sm px-5 py-2">
-                                Get a Quote
-                            </button>
+                            <ButtonTwo name="Order Now"></ButtonTwo>
                         </NuxtLink>
                     </div>
                 </div>
             </div>
         </div>
+
+
         <!-- mobile nav -->
+
         <div class="md:hidden">
             <NuxtLink to="/">
                 <!-- site name and logo -->
-                <div class="text-white absolute z-20 top-5 left-4">
+                <div class="text-wh border-buttonite absolute z-20 top-5 left-4">
                     <h1 class="h-12 p-2 text-4xl font-Lexend">
                         <img src="/accent.svg"
                              alt="logo"
@@ -108,8 +112,8 @@
             <!-- Hambuger menu -->
             <button class="absolute top-8 right-4 z-20 p-2 bg-white rounded-full text-black"
                     @click="toggleMobileNav()">
-                <IconCSS name="ci:menu-alt-01"
-                         class="text-3xl text-black" />
+                <Icon name="ci:menu-alt-01"
+                      class="text-3x border-buttonl text-black" />
 
                 <div class="hidden">
                     {{ showMobile }}
@@ -140,4 +144,33 @@ const toggleMobileNav = () => {
 
 </script>
 
-<style lang="scss" scoped></style>
+<style scoped>
+.border-button {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.border-button::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    /* Height of the bottom border */
+    background-color: #ff7b00;
+    /* Color of the animated border */
+    transition: width 0.3s ease;
+    z-index: -1;
+}
+
+.border-button:hover::before {
+    width: 100%;
+}
+</style>
