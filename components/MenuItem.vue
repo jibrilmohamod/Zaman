@@ -14,18 +14,18 @@
             <!-- Item Name and Details  -->
             <div class="flex flex-col gap-2 basis-3/5">
                 <!-- Item Name  -->
-                <p class="font-semibold text-[22px] tracking-wide">
+                <p class="font-semibold text-[22px] tracking-wide md:text-[25px] md:font-bold">
                     {{ name }}
                 </p>
                 <!-- Item Details  -->
-                <p class="font-jost text-[#4a4a4b] text-[14px]">
+                <p class="font-jost text-[#4a4a4b] text-[14px] md:text-[16px]">
 
 
                     {{ ingredients }}
                 </p>
             </div>
             <!-- Item Price  -->
-            <div class="text-[#272727] place-self-start font-jost basis-1/5">
+            <div class="text-[#272727] place-self-start font-jost basis-1/5 md:text-[16px]">
 
                 {{ price }}
 

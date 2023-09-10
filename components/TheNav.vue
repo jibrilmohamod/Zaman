@@ -64,7 +64,7 @@
                     <NuxtLink to="/">
                         <img src="/accent.svg"
                              alt="logo"
-                             class="object-contain h-14" />
+                             class="object-contain h-14 w-fit" />
                     </NuxtLink>
                 </h1>
                 <!-- navigation -->

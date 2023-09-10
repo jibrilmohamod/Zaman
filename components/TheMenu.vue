@@ -10,7 +10,7 @@
                           :key="item.id"
                           :name="item.name"
                           :ingredients="item.ingredients"
-                          :price="'$' + item.price">
+                          :price="'Ksh ' + item.price">
                 </MenuItem>
             </MenuCategory>
         </div>

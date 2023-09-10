@@ -1,5 +1,5 @@
 <template>
-    <div class="pt-4 pl-6 pr-3 pb-4 outline-blue-500 outline h-fit"
+    <div class="pt-4 pl-6 pr-3 pb-4 h-fit"
          data-aos="fade-up"
          data-aos-duration="1000"
          data-aos-easing="ease-in-out"
