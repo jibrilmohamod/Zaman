@@ -1,5 +1,5 @@
 <template>
-    <div class="relative text-white">
+    <div class="relative text-white ">
         <!-- Add a dark overlay -->
         <div class="absolute inset-0 bg-black opacity-50 z-10">
         </div>
@@ -30,15 +30,8 @@
             </div>
         </div>
         <!-- hero image -->
-        <div class="relative h-[100vh]">
-            <NuxtImg loading="lazy"
-                     provider="cloudinary"
-                     format="webp"
-                     alt="hero image"
-                     :modifiers="{ effect: 'colorize:40', color: 'black' }"
-                     sizes="sm:100vw md:50vw lg:100vw"
-                     src="v1694095334/2O0A2486_sqm9hq.webp"
-                     class="h-full object-cover object-top w-full" />
+        <div class="relative h-[100vh] ">
+            <TheCarousel />
         </div>
     </div>
 </template>
