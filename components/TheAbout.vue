@@ -1,6 +1,6 @@
 <template>
     <div class="pt-8 pl-6 pr-3 pb-4 md:container md:m-auto md:pt-16 md:flex">
-        <div class="md:w-1/2">
+        <div class="md:w-1/2 md:flex md:flex-col">
             <!-- small text with line to its right -->
             <div class=" flex items-center justify-between md:justify-normal md:gap-10">
                 <h5 class="font-jost uppercase text-[13px] font-[600] tracking-widest text-[#DD5903] w-fit md:text-lg"
@@ -14,7 +14,7 @@
             <!-- section header -->
             <div class="py-4">
                 <h4
-                    class="text-[40px] font-semibold leading-tight uppercase md:text-5xl md:font-[600] md:leading-[60px] md:tracking-wider">
+                    class="text-[40px] font-semibold leading-tight uppercase md:text-5xl md:font-[600] md:leading-[60px] md:tracking-wider 2xl:text-6xl">
                     {{ header }}
 
                 </h4>
@@ -24,7 +24,7 @@
             <div class="">
 
                 <!-- paragraph -->
-                <p class="font-jost text-[18px] leading-relaxed tracking-wide text-[#4a4a4b] ">
+                <p class="font-jost text-[18px] leading-relaxed tracking-wide text-[#4a4a4b] 2xl:w-3/4 2xl:pb-7 ">
 
                     {{ paragraph }}
                 </p>
@@ -43,7 +43,7 @@
         </div>
 
         <!-- image slot -->
-        <div class="hidden md:flex justify-center items-center w-1/2">
+        <div class="hidden md:flex justify-center items-center w-1/2 h-full">
             <slot name="image2"> </slot>
 
         </div>

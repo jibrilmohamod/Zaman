@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="">
         <div class="flex justify-between py-4 gap-2 ">
             <!-- Item Image  -->
             <div class="basis-1/5">

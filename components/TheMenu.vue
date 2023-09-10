@@ -1,17 +1,20 @@
 <template>
-    <div>
+    <div class="outline outline-red-600 container m-auto h-fit">
         <!-- loop through menu categories -->
-        <MenuCategory v-for="category in [starters, mainDishes, desserts, beverages]"
-                      :key="category.id"
-                      :name="category.name">
-            <!-- loop through menu items and add a dollar sign to price -->
-            <MenuItem v-for="item in category.items"
-                      :key="item.id"
-                      :name="item.name"
-                      :ingredients="item.ingredients"
-                      :price="'$' + item.price">
-            </MenuItem>
-        </MenuCategory>
+        <div class="md:flex outline outline-green-700">
+            <MenuCategory v-for="category in [starters, mainDishes, beverages]"
+                          :key="category.id"
+                          :name="category.name">
+                <!-- loop through menu items and add a dollar sign to price -->
+                <MenuItem v-for="item in category.items"
+                          :key="item.id"
+                          :name="item.name"
+                          :ingredients="item.ingredients"
+                          :price="'$' + item.price">
+                </MenuItem>
+            </MenuCategory>
+        </div>
+
 
         <!-- menu button  -->
         <div class="flex justify-center">
@@ -19,7 +22,7 @@
         </div>
 
         <!-- menu image -->
-        <div class="pt-8 h-64 pl-6 pr-3"
+        <div class="pt-8 h-64 pl-6 pr-3 md:h-96 2xl:h-[41vh]"
              data-aos="fade-up"
              data-aos-duration="1000">
             <NuxtImg loading="lazy"

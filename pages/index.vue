@@ -1,7 +1,7 @@
 <template>
     <div class="">
         <TheHero />
-        <TheAbout>
+        <TheAbout class="">
             <!-- button slot  -->
             <template #button>
                 <NuxtButton class="font-[500] text-[14px] font-jost text-white"
@@ -13,7 +13,7 @@
 
             <!-- Image slot -->
             <template #image>
-                <div class="pt-8 h-64 md:h-96"
+                <div class="pt-8 h-64 md:h-96 2xl:h-[41vh]"
                      data-aos="fade-up"
                      data-aos-duration="1000">
                     <NuxtImg loading="lazy"
@@ -23,12 +23,12 @@
                              sizes="sm:100vw md:50vw lg:600px"
                              provider="cloudinary"
                              src="v1694095333/2O0A2557_ui2lpn.webp"
-                             class="w-full h-full object-cover md:object-cover rounded-md md:shadow-md shadow" />
+                             class="w-full h-full object-cover md:object-cover rounded-md md:drop-shadow-2xl shadow-black" />
                 </div>
             </template>
 
             <template #image2>
-                <div class="pt-8 h-full w-[70%] m-auto"
+                <div class="pt-8  xl:w-[81.5%] 2xl:w-[72.2%] m-auto"
                      data-aos="fade-up"
                      data-aos-duration="1000">
                     <NuxtImg loading="lazy"
@@ -38,7 +38,7 @@
                              sizes="sm:100px md:50vw lg:600px"
                              provider="cloudinary"
                              src="v1694095366/2O0A2745_kh9t2d.webp"
-                             class="w-full h-full object-cover md:object-cover rounded-md md:shadow-md shadow" />
+                             class="w-full h-full object-cover md:object-cover rounded-md md:drop-shadow-2xl shadow-black" />
                 </div>
             </template>
         </TheAbout>
@@ -67,7 +67,7 @@
                              provider="cloudinary"
                              sizes="sm:100vw md:50vw lg:600px"
                              src="v1694007509/dining-table-donated-with-variety-foods-two-blue-bottles-mineral-water_114579-2722_lb5l53.jpg"
-                             class="w-full h-full object-cover md:object-cover rounded-md md:shadow-md shadow" />
+                             class="w-full h-full object-cover md:object-cover rounded-md md:drop-shadow-2xl shadow-black" />
                 </div>
             </template>
 

@@ -39,13 +39,6 @@
 <script setup>
 // create an image array
 
-const { data } = await useFetch("/api/images");
-const images = ref(data);
-//get last image in array
-computed(() => {
-    const lastImage = images.value[images.value.length - 1];
-    console.log(lastImage);
-});
 </script>
 
 <style scoped>
