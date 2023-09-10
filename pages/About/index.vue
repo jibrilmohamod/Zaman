@@ -6,7 +6,7 @@
                          loading="lazy"
                          format="webp"
                          alt="image"
-                         sizes="sm:100vw md:50vw lg:400px"
+                         sizes="sm:100vw md:50vw lg:800px"
                          :modifiers="{ effect: 'colorize:30', color: 'black' }"
                          src="v1694095370/2O0A8677_x3a9xc.webp"
                          class="w-full h-full object-cover object-center" />
@@ -20,9 +20,11 @@
                   paragraph="Introducing Zaman, a hidden gem on Banda Street, Nairobi. Inspired by the city's vibrant culture, we offer a unique dining experience. Our menu blends Kenyan flavors with international twists, catering to all tastes. Join us at Zaman to savor Nairobi's essence through our dishes.">
             <!-- button slot  -->
             <template #button>
-                <NuxtButton class="font-[500] text-[14px] font-jost text-white"
-                            name="Explore our menu">
-                </NuxtButton>
+                <NuxtLink to="/menu">
+                    <NuxtButton class="font-[500] text-[14px] font-jost text-white"
+                                name="Explore our menu">
+                    </NuxtButton>
+                </NuxtLink>
             </template>
 
             <!-- Image slot -->
@@ -33,7 +35,7 @@
                     <NuxtImg loading="lazy"
                              format="webp"
                              alt="image"
-                             sizes="sm:100vw md:50vw lg:400px"
+                             sizes="sm:100vw md:50vw lg:800px"
                              provider="cloudinary"
                              :modifiers="{ effect: 'colorize:30', color: 'black' }"
                              src="v1694088526/2O0A8672_v4rney.webp"
@@ -45,7 +47,7 @@
                     <NuxtImg loading="lazy"
                              format="webp"
                              alt="image"
-                             sizes="sm:100vw md:50vw lg:400px"
+                             sizes="sm:100vw md:50vw lg:800px"
                              provider="cloudinary"
                              :modifiers="{ effect: 'colorize:30', color: 'black' }"
                              src="v1694088475/2O0A8688_zfjop8.webp"
@@ -72,7 +74,7 @@
                     <NuxtImg loading="lazy"
                              format="webp"
                              alt="image"
-                             sizes="sm:100vw md:50vw lg:400px"
+                             sizes="sm:100vw md:50vw lg:800px"
                              provider="cloudinary"
                              :modifiers="{ effect: 'colorize:30', color: 'black' }"
                              src="v1694095332/2O0A2488_1_a8ds1k.webp"
@@ -85,7 +87,7 @@
                     <NuxtImg loading="lazy"
                              format="webp"
                              alt="image"
-                             sizes="sm:100vw md:50vw lg:400px"
+                             sizes="sm:100vw md:50vw lg:800px"
                              provider="cloudinary"
                              :modifiers="{ effect: 'colorize:30', color: 'black' }"
                              src="v1694095365/2O0A2618_nzalgk.webp"
@@ -114,7 +116,7 @@
                     <NuxtImg loading="lazy"
                              format="webp"
                              alt="image"
-                             sizes="sm:100vw md:50vw lg:400px"
+                             sizes="sm:100vw md:50vw lg:800px"
                              provider="cloudinary"
                              src="v1694098771/2O0A8697_etgcqe.webp"
                              class="w-full h-full object-cover object-top rounded-md" />

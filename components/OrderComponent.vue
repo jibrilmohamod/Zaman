@@ -54,14 +54,11 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
-
 const booking = ref({
     date: '',
     time: '',
     table: '',
 });
-
 const availableTables = ref([
     { id: 1, name: 'Table 1', capacity: 4 },
     { id: 2, name: 'Table 2', capacity: 6 },

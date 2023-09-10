@@ -1,11 +1,11 @@
 <template>
-    <div class="h-[50vh]">
-        <div class="absolute inset-0 bg-black opacity-60 z-10 h-[50vh]  flex justify-center items-center">
+    <div class="h-[50vh] 2xl:h-[40vh]">
+        <div class="absolute inset-0 bg-black opacity-60 z-10 h-[50vh]  flex justify-center items-center 2xl:h-[40vh]">
             <!-- page title  -->
         </div>
         <div class="absolute inset-0 z-20 h-[50vh]  flex justify-center items-center">
             <!-- page title  -->
-            <h1 class="text-white text-5xl uppercase pt-20">
+            <h1 class="text-white text-5xl uppercase pt-20 md:text-6xl 2xl:pt-0">
                 {{ title }}
             </h1>
 
