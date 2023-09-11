@@ -1,5 +1,5 @@
 <template>
-    <div class="">
+    <div class="xl:w-[500px]">
         <div class="flex justify-between py-4 gap-2 ">
             <!-- Item Image  -->
             <div class="basis-1/5">

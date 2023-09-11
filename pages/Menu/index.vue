@@ -27,101 +27,91 @@
             </div>
             <div v-for="(item, index) in BreakfastMenu.categories"
                  :key="index"
-                 class="md:flex md:flex-wrap">
-                <div class="basis-1/3 pb-4">
-                    <div class="text-center">
-                        <!-- small title  -->
-                        <p class="font-jost text-[#DD5903] uppercase font-semibold"
-                           id="p">{{ item.Beverages.name }}</p>
-                        <!-- big title  -->
-                        <h1 class="text-3xl uppercase font-semibold">
-                            {{ item.Beverages.categories[0].ClassicMilkshakes.name }}
-                        </h1>
-                    </div>
+                 class="">
+                <MenuComponent :key="index"
+                               :Bigcat="item.Beverages.name"
+                               :smallcat="item.Beverages.categories[0].ClassicMilkshakes.name">
+                    <template #menuItem>
+                        <MenuItem v-for="(item, index) in item.Beverages.categories[0].ClassicMilkshakes.items"
+                                  :key="index"
+                                  :name="item.name"
+                                  :ingredients="item.ingredients"
+                                  :price="'Ksh ' + item.price">
+                        </MenuItem>
+                    </template>
+                </MenuComponent>
 
-                    <MenuItem v-for="(item, index) in item.Beverages.categories[0].ClassicMilkshakes.items"
-                              :key="index"
-                              :name="item.name"
-                              :ingredients="item.ingredients"
-                              :price="'Ksh ' + item.price">
-                    </MenuItem>
-                </div>
+                <MenuComponent :key="index"
+                               :Bigcat="item.Beverages.name"
+                               :smallcat="item.Beverages.categories[0].Coladas.name">
+                    <template #menuItem>
+                        <MenuItem v-for="(item, index) in item.Beverages.categories[0].Coladas.items"
+                                  :key="index"
+                                  :name="item.name"
+                                  :ingredients="item.ingredients"
+                                  :price="'Ksh ' + item.price">
+                        </MenuItem>
+                    </template>
+                </MenuComponent>
 
-                <div class="basis-1/3 pb-4">
-                    <div class="text-center">
-                        <!-- small title  -->
-                        <p class="font-jost text-[#DD5903] uppercase font-semibold"
-                           id="p">{{ item.Beverages.name }}</p>
-                        <!-- big title  -->
-                        <h1 class="text-3xl uppercase font-semibold">
-                            {{ item.Beverages.categories[0].Coladas.name }}
-                        </h1>
-                    </div>
+                <MenuComponent :key="index"
+                               :Bigcat="item.Beverages.name"
+                               :smallcat="item.Beverages.categories[0].IcedDrinks.name">
+                    <template #menuItem>
+                        <MenuItem v-for="(item, index) in item.Beverages.categories[0].IcedDrinks.items"
+                                  :key="index"
+                                  :name="item.name"
+                                  :ingredients="item.ingredients"
+                                  :price="'Ksh ' + item.price">
+                        </MenuItem>
+                    </template>
+                </MenuComponent>
 
-                    <MenuItem v-for="(item, index) in item.Beverages.categories[0].Coladas.items"
-                              :key="index"
-                              :name="item.name"
-                              :ingredients="item.ingredients"
-                              :price="'Ksh ' + item.price">
-                    </MenuItem>
-                </div>
+                <!-- fresh juices -->
+                <MenuComponent :key="index"
+                               :Bigcat="item.Beverages.name"
+                               :smallcat="item.Beverages.categories[0].FreshJuices.name">
+                    <template #menuItem>
+                        <MenuItem v-for="(item, index) in item.Beverages.categories[0].FreshJuices.items"
+                                  :key="index"
+                                  :name="item.name"
+                                  :ingredients="item.ingredients"
+                                  :price="'Ksh ' + item.price">
+                        </MenuItem>
+                    </template>
+                </MenuComponent>
 
-                <div class="basis-1/3 pb-4">
-                    <div class="text-center">
-                        <!-- small title  -->
-                        <p class="font-jost text-[#DD5903] uppercase font-semibold"
-                           id="p">{{ item.Beverages.name }}</p>
-                        <!-- big title  -->
-                        <h1 class="text-3xl uppercase font-semibold">
-                            {{ item.Beverages.categories[0].FreshJuices.name }}
-                        </h1>
-                    </div>
+                <!-- hot beverages -->
+                <MenuComponent :key="index"
+                               :Bigcat="item.Beverages.name"
+                               :smallcat="item.Beverages.categories[0].HotBeverages.name">
+                    <template #menuItem>
+                        <MenuItem v-for="(item, index) in item.Beverages.categories[0].HotBeverages.items"
+                                  :key="index"
+                                  :name="item.name"
+                                  :ingredients="item.ingredients"
+                                  :price="'Ksh ' + item.price">
+                        </MenuItem>
+                    </template>
+                </MenuComponent>
 
-                    <MenuItem v-for="(item, index) in item.Beverages.categories[0].FreshJuices.items"
-                              :key="index"
-                              :name="item.name"
-                              :ingredients="item.ingredients"
-                              :price="'Ksh ' + item.price">
-                    </MenuItem>
-                </div>
+                <!-- lemonades -->
+                <MenuComponent :key="index"
+                               :Bigcat="item.Beverages.name"
+                               :smallcat="item.Beverages.categories[0].Lemonades.name">
+                    <template #menuItem>
+                        <MenuItem v-for="(item, index) in item.Beverages.categories[0].Lemonades.items"
+                                  :key="index"
+                                  :name="item.name"
+                                  :ingredients="item.ingredients"
+                                  :price="'Ksh ' + item.price">
+                        </MenuItem>
+                    </template>
+                </MenuComponent>
 
-                <div class="basis-1/3 pb-4">
-                    <div class="text-center">
-                        <!-- small title  -->
-                        <p class="font-jost text-[#DD5903] uppercase font-semibold"
-                           id="p">{{ item.Beverages.name }}</p>
-                        <!-- big title  -->
-                        <h1 class="text-3xl uppercase font-semibold">
-                            {{ item.Beverages.categories[0].HotBeverages.name }}
-                        </h1>
-                    </div>
 
-                    <MenuItem v-for="(item, index) in item.Beverages.categories[0].HotBeverages.items"
-                              :key="index"
-                              :name="item.name"
-                              :ingredients="item.ingredients"
-                              :price="'Ksh ' + item.price">
-                    </MenuItem>
-                </div>
 
-                <div class="basis-1/3 pb-4">
-                    <div class="text-center">
-                        <!-- small title  -->
-                        <p class="font-jost text-[#DD5903] uppercase font-semibold"
-                           id="p">{{ item.Beverages.name }}</p>
-                        <!-- big title  -->
-                        <h1 class="text-3xl uppercase font-semibold">
-                            {{ item.Beverages.categories[0].IcedDrinks.name }}
-                        </h1>
-                    </div>
 
-                    <MenuItem v-for="(item, index) in item.Beverages.categories[0].IcedDrinks.items"
-                              :key="index"
-                              :name="item.name"
-                              :ingredients="item.ingredients"
-                              :price="'Ksh ' + item.price">
-                    </MenuItem>
-                </div>
 
 
 
