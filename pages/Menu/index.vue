@@ -14,7 +14,7 @@
         </TheHeader>
         <div class="container  m-auto px-2 h-fit">
 
-            <h4 class="xl:w-2/4 xl:text-4xl py-5 text-2xl uppercase xl:py-8">
+            <h4 class="xl:w-2/4 xl:text-4xl py-5 text-2xl uppercase xl:pb-16 xl:pt-12">
                 Enjoy a diverse culinary adventure with our <NuxtLink class="text-[#DD5903] cursor-pointer border-button">
                     breakfast
                 </NuxtLink> ,
@@ -30,7 +30,7 @@
 
             <!-- Menu Categories  links -->
             <div class="">
-                <div class="lg:flex  gap-10">
+                <div class="lg:flex gap-16">
                     <div>
                         <NuxtImg provider="cloudinary"
                                  format="webp"
@@ -39,17 +39,18 @@
                                  sizes="sm:100vw md:50vw lg:800px"
                                  :modifiers="{ effect: 'colorize:30', color: 'black' }"
                                  :src="BreakfastMenu.image"
-                                 class="w-full object-cover object-center rounded-md h-64 xl:h-full" />
+                                 class="w-full object-cover object-center rounded-t-md h-64 xl:h-full" />
                     </div>
-                    <div class="xl:w-1/2 xl:flex flex-col outline justify-center">
-                        <h4 class="text-orange-600 uppercase xl:text-4xl xl:font-semibold">
+                    <div class="xl:w-1/2 xl:flex flex-col justify-center xl:gap-5">
+                        <h4
+                            class="text-orange-600 uppercase xl:text-4xl xl:font-semibold text-2xl text-center xl:text-start pt-2 font-semibold">
                             {{ BreakfastMenu.name }}
                         </h4>
-                        <p class="text-center font-jost xl:text-left xl:text-2xl xl:font-Cormorant pt-6">
+                        <p class="text-center font-jost xl:w-5/6 xl:text-left xl:text-3xl xl:font-Cormorant pt-2">
                             Indulge in the most important meal of the day with our breakfast menu, featuring a delightful
                             array of dishes to kickstart your morning with flavor and energy.
                         </p>
-                        <NuxtLink :to="`/menu/${MainMenu.name}`"
+                        <NuxtLink :to="`/menu/${BreakfastMenu.slug}`"
                                   class="flex justify-center xl:justify-normal pb-5">
                             <!-- title  -->
                             <NuxtButton :name="` Explore ${BreakfastMenu.name}`"
@@ -57,22 +58,30 @@
                             </NuxtButton>
                         </NuxtLink>
                     </div>
-
                 </div>
+
+                <NuxtImg provider="cloudinary"
+                         format="webp"
+                         loading="lazy"
+                         alt="image"
+                         sizes="sm:100vw md:50vw lg:800px"
+                         src="v1694008223/davide-cantelli-jpkfc5_d-DI-unsplash-780x520_stwaqq.jpg"
+                         class="w-full object-cover object-center rounded-md h-64 lg:hidden pb-4" />
 
 
                 <!-- Main Menu Link  -->
-                <div class="lg:flex  gap-10">
-                    <div class="xl:w-1/2 xl:flex flex-col outline justify-center">
-                        <h4 class="text-orange-600 uppercase xl:text-4xl xl:font-semibold">
+                <div class="lg:flex gap-16 xl:py-16">
+                    <div class="xl:w-1/2 xl:flex flex-col justify-center items-end gap-5">
+                        <h4
+                            class="text-orange-600 uppercase xl:text-4xl xl:font-semibold text-2xl text-center font-semibold">
                             {{ MainMenu.name }}
                         </h4>
-                        <p class="text-center font-jost xl:text-left xl:text-2xl xl:font-Cormorant pt-5">
+                        <p class="text-center font-jost xl:w-5/6 xl:text-right xl:text-3xl xl:font-Cormorant pt-2">
                             Our main menu is a culinary masterpiece, offering a diverse selection of dishes that cater to
                             every palate, ensuring a memorable dining experience for all our guests.
                         </p>
-                        <NuxtLink :to="`/menu/${MainMenu.name}`"
-                                  class="flex justify-center xl:justify-normal">
+                        <NuxtLink :to="`/menu/${MainMenu.slug}`"
+                                  class="flex justify-center xl:justify-normal pb-3">
                             <!-- title  -->
                             <NuxtButton :name="` Explore ${MainMenu.name}`"
                                         class="text-white">
@@ -88,7 +97,7 @@
                                  sizes="sm:100vw md:50vw lg:800px"
                                  :modifiers="{ effect: 'colorize:30', color: 'black' }"
                                  :src="MainMenu.image"
-                                 class="w-full object-cover object-center rounded-md h-64 xl:h-full " />
+                                 class="w-full object-cover object-center rounded-t-md h-64 xl:h-full " />
                     </div>
                 </div>
 
@@ -103,15 +112,6 @@ const { data } = await useFetch('/api/menu');
 const menu = ref(data.value.menu);
 // destructure menu categories from menu 
 const { BreakfastMenu, MainMenu } = menu.value;
-// destrucure Breakfast Categories from BreakfastMenu
-const { categories } = BreakfastMenu;
-// destructure beverages and Breakfast Combos from Breakfast Categories Object
-const { Beverages, BreakfastCombos } = categories[0];
-//destructure categories from Beverages
-const { ClassicMilkshakes, Coladas, FreshJuices, HotBeverages, IcedDrinks, Lemonades, Milkshakes, Palma, SignatureDrinks, Smoothies } = Beverages.categories[0];
-// destructre Main Categories from MainMenu
-const { Categories } = MainMenu;
-
 </script>
 
 <style scoped>

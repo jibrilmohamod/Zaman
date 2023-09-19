@@ -1,6 +1,6 @@
 <template>
     <div class="basis-1/3 pb-4">
-        <TheHeader :title="route.params.menu">
+        <TheHeader :title="menu.name">
             <template #image>
                 <NuxtImg provider="cloudinary"
                          format="webp"
@@ -12,27 +12,26 @@
                          class="w-full h-full object-cover object-center" />
             </template>
         </TheHeader>
-
-
-
-        {{ data.menu }}
+        {{ slug }}
+        {{ menu }}
     </div>
 </template>
 
 <script setup>
 // get route params 
 const route = useRoute();
-const menu = ref(route.params.menu)
-
+const slug = ref(route.params.slug);
 // get menu items from server
 const { data } = await useFetch('/api/menu');
-// get menu from data using destructuring
-const { BreakfastMenu } = data.value.menu;
-
-
-
-
-
+const FullMenu = ref(data.value.menu);
+// get corresponding menu that has the same slug as the route params using destructuring
+const menu = ref(null);
+const { BreakfastMenu, MainMenu } = FullMenu.value;
+if (route.params.slug === 'BreakfastMenu') {
+    menu.value = BreakfastMenu;
+} else {
+    menu.value = MainMenu;
+}
 </script>
 
 <style scoped></style>

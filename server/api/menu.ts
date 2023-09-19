@@ -6,6 +6,7 @@ export default defineEventHandler((event) => {
    BreakfastMenu: {
     name: "Breakfast Menu",
     image: "v1694095332/2O0A2492_xhfbyj.webp",
+    slug: "BreakfastMenu",
     categories: [
      {
       Beverages: {
@@ -613,6 +614,7 @@ export default defineEventHandler((event) => {
    MainMenu: {
     name: "Main Menu",
     image: "v1694295166/2O0A2819_bmuugk.webp",
+    slug: "MainMenu",
     Categories: [
      {
       SaladsandSoups: {
