@@ -615,7 +615,7 @@ export default defineEventHandler((event) => {
     name: "Main Menu",
     image: "v1694295166/2O0A2819_bmuugk.webp",
     slug: "MainMenu",
-    Categories: [
+    categories: [
      {
       SaladsandSoups: {
        name: "Salads and Soups",
