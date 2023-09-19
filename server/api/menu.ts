@@ -5,7 +5,7 @@ export default defineEventHandler((event) => {
    image: "restaurant_image_url.jpg",
    BreakfastMenu: {
     name: "Breakfast Menu",
-    image: "breakfast_image_url.jpg",
+    image: "v1694095332/2O0A2492_xhfbyj.webp",
     categories: [
      {
       Beverages: {
@@ -612,7 +612,7 @@ export default defineEventHandler((event) => {
    },
    MainMenu: {
     name: "Main Menu",
-    image: "main_menu_image_url.jpg",
+    image: "v1694295166/2O0A2819_bmuugk.webp",
     Categories: [
      {
       SaladsandSoups: {

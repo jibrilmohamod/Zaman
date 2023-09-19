@@ -8,41 +8,7 @@
             </p>
             <div class="w-10 outline outline-1 outline-[#BF926B] justify-self-end"></div>
         </div>
-        <form class="text-white "
-              @submit.prevent="bookTable">
-            <div class="md:flex justify-center gap-4 md:container m-auto md:text-lg md:font-bold">
-                <input type="date"
-                       v-model="booking.date"
-                       class="bg-transparent text-white border-b border-white mb-4 focus:outline-none placeholder:text-white"
-                       placeholder="Date"
-                       required />
 
-                <input type="time"
-                       v-model="booking.time"
-                       class="bg-transparent text-white border-b border-white mb-4 focus:outline-none"
-                       placeholder="Time"
-                       required />
-
-                <select v-model="booking.table"
-                        class="bg-transparent text-white border-b border-white mb-4 focus:outline-none"
-                        required>
-                    <option value=""
-                            disabled
-                            selected
-                            hidden>Table</option>
-                    <option v-for="table in availableTables"
-                            :key="table.id"
-                            :value="table.id">
-                        {{ table.name }} ({{ table.capacity }} seats)
-                    </option>
-                </select>
-            </div>
-
-            <button type="submit"
-                    class="md:w-full">
-                <NuxtButton name="Book A Table"></NuxtButton>
-            </button>
-        </form>
 
         <div v-if="bookingConfirmation">
             <h2>Booking Confirmation</h2>

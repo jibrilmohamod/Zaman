@@ -5,7 +5,7 @@
         </div>
         <div class="absolute inset-0 z-20 h-[50vh]  flex justify-center items-center">
             <!-- page title  -->
-            <h1 class="text-white text-5xl uppercase pt-20 md:text-6xl 2xl:pt-0">
+            <h1 class="text-white text-5xl uppercase pt-20 md:text-6xl 2xl:pt-0 text-center">
                 {{ title }}
             </h1>
 
