@@ -12,7 +12,7 @@
                              :src="img"
                              provider="cloudinary"
                              format="webp"
-                             sizes="sm:100vw md:50vw xl:1600px"
+                             sizes="sm:800px md:50vw xl:1600px"
                              :modifiers="{ effect: 'colorize:40', color: 'black' }"
                              alt="First slide" />
                 </div>
@@ -28,6 +28,7 @@ const images = ref([
     'v1694088729/2O0A8663_aaa9eg.webp',
     'v1695223483/2O0A8690_vkzfnp.webp',
     'v1694095371/2O0A8676_al4txz.webp',
+    'v1695223476/2O0A8684_g1alee.webp'
 ]);
 
 let active = ref(0);

@@ -102,7 +102,7 @@
                 </div>
 
                 <!-- Beverage Menu Link -->
-                <div class="lg:flex gap-16 xl:pb-10">
+                <div class="lg:flex gap-16 xl:pb-10 xl:pt-0 pt-10">
                     <div>
                         <NuxtImg provider="cloudinary"
                                  format="webp"

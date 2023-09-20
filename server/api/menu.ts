@@ -622,7 +622,7 @@ export default defineEventHandler((event) => {
         {
          name: "Cafe Mocha",
          ingredients: "Coffee beans, water",
-         image: "cafe_mocha_image_url.jpg",
+         image: "upload/v1695223477/2O0A2680_t8cqwg.webp",
          price: 300,
         },
         {
