@@ -611,7 +611,8 @@ export default defineEventHandler((event) => {
    },
    Beverages: {
     name: "Beverages",
-    image: "beverages_image_url.jpg",
+    image: "v1695223477/2O0A2680_t8cqwg.webp",
+    slug: "Beverages",
     categories: [
      {
       HotBeverages: {

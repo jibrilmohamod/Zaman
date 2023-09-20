@@ -47,11 +47,13 @@ const { data } = await useFetch('/api/menu');
 const FullMenu = ref(data.value.menu);
 // get corresponding menu that has the same slug as the route params using destructuring
 const menu = ref(null);
-const { BreakfastMenu, MainMenu } = FullMenu.value;
+const { BreakfastMenu, MainMenu, Beverages } = FullMenu.value;
 if (route.params.slug === 'BreakfastMenu') {
     menu.value = BreakfastMenu;
-} else {
+} else if (route.params.slug === 'MainMenu') {
     menu.value = MainMenu;
+} else if (route.params.slug === 'Beverages') {
+    menu.value = Beverages;
 }
 
 // State

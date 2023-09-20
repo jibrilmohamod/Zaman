@@ -1,7 +1,7 @@
 <template>
     <div class="">
         <!-- Tab buttons -->
-        <div class="tab-buttons">
+        <div class="tab-buttons flex flex-wrap">
             <button v-for="(tab, index) in tabs"
                     :key="index"
                     @click="toggleTab(index)"
@@ -12,11 +12,16 @@
 
         <!-- Tab content with transition -->
         <transition name="fade"
-                    mode="out-in">
+                    mode="out-in"
+                    v-if="tabs">
             <div :key="activeTab"
                  class="tab-content">
-                {{ tabs[activeTab] }}
-
+                <!-- {{ tabs[activeTab] }} -->
+                <div v-for="(item, index) in items"
+                     :key="index">
+                    <h1>{{ item.name }}</h1>
+                    <p>{{ item.description }}</p>
+                </div>
 
             </div>
         </transition>
@@ -40,7 +45,15 @@ const activeTab = ref(0);
 // Methods
 const toggleTab = (index) => {
     activeTab.value = index;
+    console.log(props.tabs[activeTab.value].items);
+    // push each item in the active tab to items array
+    items.value = props.tabs[activeTab.value].items;
 };
+// get menu items in active tab using activeTab and watchers 
+const items = ref(null);
+// watch(activeTab, () => {
+//     items = props.tabstabs[activeTab.value].items;
+// });
 // toggle tab on mount if tab is longer than 1
 onMounted(() => {
     if (props.tabs.length > 1) {

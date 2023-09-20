@@ -26,6 +26,8 @@ const images = ref([
     'v1694098771/2O0A8697_etgcqe.webp',
     'v1694088475/2O0A8672_njnwpz.webp',
     'v1694088729/2O0A8663_aaa9eg.webp',
+    'v1695223483/2O0A8690_vkzfnp.webp',
+    'v1694095371/2O0A8676_al4txz.webp',
 ]);
 
 let active = ref(0);

@@ -42,7 +42,7 @@
                 </div>
             </template>
         </TheAbout>
-        <TheMenu />
+        <!-- <TheMenu /> -->
         <TheAbout small-text="Right here waiting"
                   header="Visit Our Restaurant"
                   paragraph="Zaman Restaurant is located in the heart of Nairobi city, surrounded by the most popular tourist attractions. We are open every day from 9am to 11pm.">

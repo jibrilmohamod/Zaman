@@ -101,6 +101,38 @@
                     </div>
                 </div>
 
+                <!-- Beverage Menu Link -->
+                <div class="lg:flex gap-16 xl:pb-10">
+                    <div>
+                        <NuxtImg provider="cloudinary"
+                                 format="webp"
+                                 loading="lazy"
+                                 alt="image"
+                                 sizes="sm:100vw md:50vw lg:800px"
+                                 :modifiers="{ effect: 'colorize:30', color: 'black' }"
+                                 :src="Beverages.image"
+                                 class="w-full object-cover object-center rounded-t-md h-64 xl:h-full" />
+                    </div>
+                    <div class="xl:w-1/2 xl:flex flex-col justify-center xl:gap-5">
+                        <h4
+                            class="text-orange-600 uppercase xl:text-4xl xl:font-semibold text-2xl text-center xl:text-start pt-2 font-semibold">
+                            {{ Beverages.name }}
+                        </h4>
+                        <p class="text-center font-jost xl:w-5/6 xl:text-left xl:text-3xl xl:font-Cormorant pt-2">
+                            Explore our carefully curated Beverages Menu, a delightful array of drinks that includes
+                            everything from classics to innovative creations, ensuring the perfect beverage pairing for your
+                            dining pleasure.
+                        </p>
+                        <NuxtLink :to="`/menu/${Beverages.slug}`"
+                                  class="flex justify-center xl:justify-normal pb-5">
+                            <!-- title  -->
+                            <NuxtButton :name="` Explore ${Beverages.name}`"
+                                        class="text-white">
+                            </NuxtButton>
+                        </NuxtLink>
+                    </div>
+                </div>
+
 
             </div>
         </div>
@@ -111,7 +143,7 @@
 const { data } = await useFetch('/api/menu');
 const menu = ref(data.value.menu);
 // destructure menu categories from menu 
-const { BreakfastMenu, MainMenu } = menu.value;
+const { BreakfastMenu, MainMenu, Beverages } = menu.value;
 </script>
 
 <style scoped>
