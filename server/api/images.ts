@@ -13,6 +13,14 @@ export default defineEventHandler((event) => {
     name: "image4.jpeg",
     src: "v1694095334/2O0A2486_sqm9hq.webp",
    },
+   {
+    name: "image5.jpeg",
+    src: "v1694095371/2O0A8676_al4txz.webp",
+   },
+   {
+    name: "image6.jpeg",
+    src: "v1695223483/2O0A8690_vkzfnp.webp",
+   },
   ],
  }
 })
