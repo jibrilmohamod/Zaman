@@ -12,7 +12,7 @@
                              :src="img"
                              provider="cloudinary"
                              format="webp"
-                             sizes="sm:100vw md:50vw lg:1000px"
+                             sizes="sm:100vw md:50vw xl:1600px"
                              :modifiers="{ effect: 'colorize:40', color: 'black' }"
                              alt="First slide" />
                 </div>

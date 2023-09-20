@@ -6,7 +6,7 @@
                          format="webp"
                          loading="lazy"
                          alt="image"
-                         sizes="sm:100vw md:50vw lg:800px"
+                         sizes="sm:100vw md:50vw xl:1600px"
                          :modifiers="{ effect: 'colorize:30', color: 'black' }"
                          src="v1694095370/2O0A8677_x3a9xc.webp"
                          class="w-full h-full object-cover object-center" />
