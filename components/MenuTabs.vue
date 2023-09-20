@@ -1,5 +1,5 @@
 <template>
-    <div class="2xl:bg-red-700">
+    <div class="">
         <!-- Tab buttons -->
         <div class="tab-buttons">
             <button v-for="(tab, index) in tabs"
@@ -15,8 +15,9 @@
                     mode="out-in">
             <div :key="activeTab"
                  class="tab-content">
-                <!-- {{ tabs[activeTab].content }} -->
-                dfd
+                {{ tabs[activeTab] }}
+
+
             </div>
         </transition>
     </div>
@@ -40,6 +41,12 @@ const activeTab = ref(0);
 const toggleTab = (index) => {
     activeTab.value = index;
 };
+// toggle tab on mount if tab is longer than 1
+onMounted(() => {
+    if (props.tabs.length > 1) {
+        toggleTab(1);
+    }
+});
 </script>
 
 <style scoped>

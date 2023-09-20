@@ -12,10 +12,29 @@
                          class="w-full h-full object-cover object-center" />
             </template>
         </TheHeader>
-        {{ slug }}
+        <div class="container m-auto pl-6 pr-3 xl:pl-0 xl:pr-3">
+            <h4 v-if="slug === 'BreakfastMenu'"
+                class="xl:w-2/4 xl:text-4xl py-5 text-2xl uppercase xl:pb-16 xl:pt-12">
+                Energize your morning with our
+                <span class="text-[#DD5903] cursor-pointer border-button">
+                    Breakfast
+                </span>
+                where you'll find a <span class="text-[#DD5903] cursor-pointer border-button">
+                    mouthwatering
+                </span> selection of dishes to
+                jumpstart your day.
+            </h4>
+            <h4 v-else
+                class="xl:w-2/4 xl:text-4xl py-5 text-2xl uppercase xl:pb-16 xl:pt-12">
+                Indulge in the rich tapestry of flavors on our <span class="text-[#DD5903] cursor-pointer border-button">
+                    Main Menu
+                </span>, where each dish tells a unique story of <span class="text-[#DD5903] cursor-pointer border-button">
+                    culinary creativity
+                </span> and passion.
+            </h4>
+            <MenuTabs :tabs="menu.categories[0]" />
+        </div>
 
-        <!-- meu tabs component -->
-        <MenuTabs :tabs="menu.categories[0]" />
     </div>
 </template>
 
@@ -46,57 +65,6 @@ const toggleTab = (index) => {
 </script>
 
 <style scoped>
-/* Add your CSS for styling tabs and transitions here */
-.tab-buttons {
-    display: flex;
-}
-
-.tab-buttons button {
-    padding: 10px 20px;
-    cursor: pointer;
-    background-color: #eee;
-    border: none;
-    /* Remove the default button border */
-    border-radius: 5px 5px 0 0;
-    position: relative;
-    /* Required for pseudo-element */
-    transition: border 0.3s;
-    /* Transition for the border */
-}
-
-.tab-buttons button:hover {
-    border-bottom: 2px solid #007BFF;
-    /* Add border on hover */
-}
-
-.tab-buttons button.active {
-    background-color: #fff;
-}
-
-/* Animation for the border */
-.tab-buttons button::before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background-color: #007BFF;
-    transition: width 0.3s;
-    /* Animation duration */
-}
-
-.tab-buttons button:hover::before {
-    width: 100%;
-    /* Animate from left to right on hover */
-}
-
-.tab-content {
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 0 0 5px 5px;
-}
-
 .fade-enter-active,
 .fade-leave-active {
     transition: opacity 0.5s;
