@@ -30,7 +30,7 @@
 
         <!-- menu button  -->
         <div class="flex justify-center">
-            <NuxtLink to="/menu">
+            <NuxtLink to="/menu/">
                 <NuxtButton class="text-white border-button"
                             name="View Full Menu" />
             </NuxtLink>
