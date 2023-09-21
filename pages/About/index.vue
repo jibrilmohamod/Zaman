@@ -229,13 +229,92 @@
 </template>
 
 <script setup>
-useSeoMeta({
+useHead({
   title: "About Us | Zaman Restaurant",
-  description:
-    "Zaman Restaurant is located in the heart of Nairobi city, surrounded by the most popular tourist attractions. We are open every day from 9am to 11pm.",
-  ogTitle: "About Us | Zaman Restaurant",
-  ogDescription:
-    "Zaman Restaurant is located in the heart of Nairobi city, surrounded by the most popular tourist attractions. We are open every day from 9am to 11pm.",
+  meta: [
+    {
+      name: "keywords",
+      content:
+        "Zaman Restaurant, Zaman Restaurant Nairobi, Zaman Restaurant Kenya, Zaman Restaurant Banda Street, Zaman Restaurant Menu, Zaman Restaurant Contact, Zaman Restaurant Location, Zaman Restaurant About Us, Zaman Restaurant Food, Zaman Restaurant Cuisine, Zaman Restaurant Dining, Zaman Restaurant Ambiance, Zaman Restaurant Menu, Zaman Restaurant Food Philosophy, Zaman Restaurant Come and Visit Us Today",
+    },
+    //   description
+    {
+      name: "description",
+      content:
+        "Zaman Restaurant is located in the heart of Nairobi city, surrounded by the most popular tourist attractions. We are open every day from 9am to 11pm.",
+    },
+    {
+      name: "robots",
+      content: "index, follow",
+    },
+    {
+      name: "googlebot",
+      content: "index, follow",
+    },
+    {
+      name: "author",
+      content: "Zaman Restaurant",
+    },
+    {
+      name: "page-topic",
+      content: "Zaman Restaurant",
+    },
+    {
+      name: "page-type",
+      content: "Restaurant",
+    },
+    {
+      name: "audience",
+      content: "all",
+    },
+    {
+      name: "distribution",
+      content: "global",
+    },
+    {
+      name: "rating",
+      content: "general",
+    },
+    {
+      name: "revisit-after",
+      content: "7 days",
+    },
+    {
+      name: "language",
+      content: "en-us",
+    },
+    // og meta
+    {
+      name: "og:title",
+      content: "About Us | Zaman Restaurant",
+    },
+    {
+      name: "og:url",
+      content: "https://zaman-restaurant.vercel.app/aboutus",
+    },
+    {
+      name: "og:description",
+      content:
+        "Zaman Restaurant is located in the heart of Nairobi city, surrounded by the most popular tourist attractions. We are open every day from 9am to 11pm.",
+    },
+    {
+      name: "og:image",
+      content:
+        "https://res.cloudinary.com/dq6hflqwx/image/upload/v1629277449/2O0A8677_x3a9xc.webp",
+    },
+    {
+      name: "og:site_name",
+      content: "Zaman Restaurant",
+    },
+    {
+      name: "og:type",
+      content: "website",
+    },
+    {
+      name: "og:locale",
+      content: "en_US",
+    },
+  ],
 });
 </script>
 

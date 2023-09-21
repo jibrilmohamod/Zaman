@@ -124,6 +124,24 @@
 <script setup>
 import AOS from "aos";
 onMounted(() => AOS.init());
+
+// seo
+useHead({
+  title: "Zaman Restaurant , Nairobi",
+  // meta tags
+  meta: [
+    {
+      name: "description",
+      content:
+        "Zaman Restaurant is located in the heart of Nairobi city, surrounded by the most popular tourist attractions. We are open every day from 9am to 11pm.",
+    },
+    {
+      name: "keywords",
+      content:
+        "Zaman Restaurant, Zaman Restaurant Nairobi, Zaman Restaurant Kenya, Banda Street, Nairobi, Kenya, food, drinks, menu, breakfast, lunch, dinner, beverages ,Authentic Kenyan Cuisine, Authentic Kenyan Food, Authentic Kenyan Restaurant, Authentic Kenyan Restaurant Nairobi, Authentic Kenyan Restaurant Kenya, Authentic Kenyan Restaurant Banda Street, Authentic Kenyan Restaurant Nairobi Kenya, Authentic Kenyan Restaurant Nairobi Banda Street",
+    },
+  ],
+});
 </script>
 
 <style scoped></style>
