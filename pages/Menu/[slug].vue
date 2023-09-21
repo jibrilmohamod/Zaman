@@ -71,7 +71,9 @@ useSeoMeta({
   title: `${slug.value} | Zaman Restaurant`,
   description: "Zaman Restaurant Menu",
   image: "v1694095370/2O0A8677_x3a9xc.webp",
-  url: "https://zaman-restaurant.vercel.app/menu",
+  ogDescription: "Zaman Restaurant Menu",
+  ogTitle: `${slug.value} | Zaman Restaurant`,
+  ogImage: "v1694095370/2O0A8677_x3a9xc.webp",
 });
 </script>
 

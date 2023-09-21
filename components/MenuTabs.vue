@@ -36,7 +36,7 @@
       leave-active-class="animate__animated animate__fadeOutDown"
     >
       <div :key="activeTab">
-        <div class="tab-content flex basis-1/3 flex-wrap justify-between">
+        <div class="tab-content flex basis-1/3 flex-wrap justify-between gap-x-4">
           <!-- menu image with menu name on the image -->
           <div
             class="h-48 xl:h-[40vh] py-5 basis-full"
