@@ -23,14 +23,24 @@ export default defineNuxtConfig({
   loading: "lazy",
  },
 
- modules: ["@nuxt/image", "nuxt-icon", "@formkit/nuxt"],
+ site: {
+  url: "https://zamann.netlify.app",
+  name: "Zaman Restaurant Nairobi",
+  description: "Zaman Restaurant Nairobi",
+  defaultLocale: "en",
+  identity: {
+   type: "Person",
+  },
+  twitter: "@mohamodjibril",
+  trailingSlash: true,
+ },
+ modules: ["@nuxt/image", "nuxt-icon", "@formkit/nuxt", "@nuxtseo/module"],
 
  app: {
   pageTransition: { name: "page", mode: "out-in" },
   head: {
    charset: "utf-8",
    viewport: "width=device-width, initial-scale=1",
-   title: "Zaman Restaurant",
   },
  },
 })
