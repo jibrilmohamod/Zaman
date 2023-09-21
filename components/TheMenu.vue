@@ -1,6 +1,6 @@
 <template>
-    <div class="container m-auto h-fit">
-        <h4 class="xl:w-2/4 xl:text-4xl py-5 text-2xl uppercase xl:pb-16 xl:pt-12">
+    <div class="container m-auto h-fit ">
+        <h4 class="xl:w-2/4 xl:text-4xl py-5 text-2xl uppercase xl:pb-10 xl:pt-12 pl-6 pr-3">
             Enjoy a diverse culinary adventure with our
             <NuxtLink class="text-[#DD5903] cursor-pointer border-button">
                 breakfast
@@ -31,7 +31,8 @@
         <!-- menu button  -->
         <div class="flex justify-center">
             <NuxtLink to="/menu">
-                <ButtonTwo name="View Full Menu"></ButtonTwo>
+                <NuxtButton class="text-white border-button"
+                            name="View Full Menu" />
             </NuxtLink>
         </div>
 
