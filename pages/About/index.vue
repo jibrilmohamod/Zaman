@@ -160,7 +160,7 @@
             :modifiers="{ effect: 'colorize:10', color: 'black' }"
             sizes="sm:100vw md:50vw lg:800px"
             provider="cloudinary"
-            src="v1694095366/2O0A2619_zwoukc.webp"
+            src="v1695331625/2O0A2426_qp51qm.webp"
             class="w-1/2 h-[40vh] m-auto object-cover shadow-xl shadow-black"
           />
         </div>
@@ -209,7 +209,7 @@
             :modifiers="{ effect: 'colorize:10', color: 'black' }"
             sizes="sm:100px md:50vw lg:600px"
             provider="cloudinary"
-            src="v1694295165/2O0A2815_i14jgh.webp"
+            src="v1695331640/2O0A2713_f6iora.webp"
             class="w-1/2 h-[60vh] object-cover md:object-cover shadow-2xl shadow-black"
           />
           <NuxtImg
@@ -219,7 +219,7 @@
             :modifiers="{ effect: 'colorize:10', color: 'black' }"
             sizes="sm:100vw md:50vw lg:800px"
             provider="cloudinary"
-            src="v1694295166/2O0A2819_bmuugk.webp"
+            src="v1695331644/2O0A2772_xsudw1.webp"
             class="w-1/2 h-[40vh] m-auto object-cover shadow-xl shadow-black"
           />
         </div>
