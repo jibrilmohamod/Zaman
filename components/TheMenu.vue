@@ -23,7 +23,7 @@
                           :key="item.id"
                           :name="item.name"
                           :ingredients="item.ingredients"
-                          :price="'Ksh ' + item.price">
+                          :price="item.price">
                 </MenuItem>
             </MenuCategory>
         </div>
