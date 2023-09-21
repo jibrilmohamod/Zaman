@@ -103,7 +103,7 @@
             :modifiers="{ effect: 'colorize:10', color: 'black' }"
             sizes="sm:100px md:50vw lg:600px"
             provider="cloudinary"
-            src="v1694095366/2O0A2745_kh9t2d.webp"
+            src="v1694295165/2O0A2815_i14jgh.webp"
             class="w-1/2 h-[60vh] object-cover md:object-cover shadow-2xl shadow-black"
           />
           <NuxtImg
@@ -113,7 +113,7 @@
             :modifiers="{ effect: 'colorize:10', color: 'black' }"
             sizes="sm:100vw md:50vw lg:800px"
             provider="cloudinary"
-            src="v1694095332/2O0A2492_xhfbyj.webp"
+            src="v1694295166/2O0A2819_bmuugk.webp"
             class="w-1/2 h-[40vh] m-auto object-cover shadow-xl shadow-black"
           />
         </div>
