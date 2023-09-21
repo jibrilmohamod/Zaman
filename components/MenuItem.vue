@@ -12,7 +12,7 @@
           loading="lazy"
           sizes="sm:100px md:50vw lg:400px"
           format="webp"
-          class="object-cover h-[70px] rounded-sm shadow-md shadow-black"
+          class="object-cover w-full h-[70px] rounded-sm shadow-md shadow-black"
         />
       </div>
       <!-- Item Name and Details  -->
