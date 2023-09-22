@@ -1,12 +1,11 @@
 <template>
-    <div class="bg-black  z-50 fixed h-[100vh] w-full text-white">
-
+    <div class="bg-black z-50 fixed h-[100vh]  w-full text-white">
         <!-- logo here and close button -->
         <div class="flex justify-between px-5 pb-10 pt-5 border-b border-gray-800">
-            <NuxtLink to="/">
+            <SiteLink to="/">
                 <img src="/logo.png"
                      class="object-contain h-12" />
-            </NuxtLink>
+            </SiteLink>
 
             <button class="p-2 bg-white rounded-full text-black"
                     @click="$emit('toggleMobileNav')">
@@ -17,38 +16,35 @@
 
         <!-- nav links -->
         <nav class="flex flex-col gap-5 py-8 font-jost px-5">
-            <NuxtLink to="/"
+            <SiteLink to="/"
                       class="text-2xl focus:text-orange-500"
                       aria-label="Nav link">
                 Home
-            </NuxtLink>
+            </SiteLink>
 
-            <NuxtLink to="/about"
+            <SiteLink to="/about/"
                       class="text-2xl focus:text-orange-500"
                       aria-label="Nav link">
                 About
-            </NuxtLink>
+            </SiteLink>
 
-
-            <NuxtLink to="/menu"
+            <SiteLink to="/menu/"
                       class="text-2xl focus:text-orange-500"
                       aria-label="Nav link">
                 Menu
-            </NuxtLink>
+            </SiteLink>
 
-
-            <NuxtLink to="/contactus"
+            <SiteLink to="/contactus/"
                       class="text-2xl focus:text-orange-500"
                       aria-label="Nav link">
                 Contact
-            </NuxtLink>
+            </SiteLink>
 
-            <NuxtLink to="/"
+            <SiteLink to="/"
                       class="text-2xl focus:text-orange-500"
                       aria-label="Nav link">
                 Order Now
-            </NuxtLink>
-
+            </SiteLink>
         </nav>
 
         <!-- social media icons and copyright -->
@@ -69,7 +65,6 @@
                 <!-- youtube -->
                 <IconCSS name="akar-icons:youtube-fill"
                          class="text-xl mr-5" />
-
             </div>
 
             <div class="py-4">
@@ -79,17 +74,15 @@
             </div>
         </div>
 
-        <div class="px-5 text-sm  border-t border-gray-800">
+        <div class="px-5 text-sm border-t border-gray-800">
             <!-- address with icon -->
 
-            <div class="flex py-2 ">
+            <div class="flex py-2">
                 <div class="pr-3">
                     <IconCSS name="mdi:location"
                              class="text-xl" />
                 </div>
-                <p class="font-jost">
-                    1234, Nairobi, Kenya
-                </p>
+                <p class="font-jost">1234, Nairobi, Kenya</p>
             </div>
             <!-- phone with icon -->
 
@@ -98,9 +91,7 @@
                     <IconCSS name="mdi:phone"
                              class="text-xl" />
                 </div>
-                <p class="font-jost">
-                    +254 123 456 789
-                </p>
+                <p class="font-jost">+254 123 456 789</p>
             </div>
             <!-- email with icon -->
 
@@ -110,24 +101,16 @@
                              class="text-xl" />
                 </div>
                 <p class="font-jost">
-                    <a href="mailto:info@zaman.co.ke">
-                        info@zaman.co.ke
-                    </a>
+                    <a href="mailto:info@zaman.co.ke"> info@zaman.co.ke </a>
                 </p>
             </div>
         </div>
-
-
-
-
-
     </div>
 </template>
 
 <script setup>
-
-defineEmits(["toggleMobileNav"]);
-
+    defineEmits(["toggleMobileNav"])
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss"
+       scoped></style>
