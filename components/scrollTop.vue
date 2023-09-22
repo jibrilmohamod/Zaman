@@ -4,7 +4,7 @@
     <button
       v-show="showScrollButton"
       @click="scrollToTop"
-      class="fixed bottom-4 right-4 z-50 p-3 text-white rounded-full bg-black animate-bounce"
+      class="fixed bottom-4 right-4 z-50 p-3 text-white rounded-full bg-[#DD5903] animate-bounce"
     >
       <Icon name="akar-icons:arrow-up" class="text-2xl" />
     </button>
