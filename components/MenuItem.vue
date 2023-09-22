@@ -1,6 +1,6 @@
 <template>
   <div
-    class="2xl:w-[490px] lg:w-[400px] w-[90vw] py-4 xl:py-8 border-b border-gray-400 xl:grid"
+    class="2xl:w-[490px] lg:w-[400px] w-[90vw] py-4 xl:py-8 border-b border-gray-400 xl:h-[170px]"
   >
     <div class="flex justify-between gap-2">
       <!-- Item Image  -->

@@ -5,11 +5,13 @@
     <TheAbout class="">
       <!-- button slot  -->
       <template #button>
-        <NuxtButton
-          class="font-[500] text-[14px] font-jost text-white"
-          name="Discover More"
-        >
-        </NuxtButton>
+        <SiteLink to="/about/">
+          <NuxtButton
+            class="font-[500] text-[14px] font-jost text-white"
+            name="Discover More"
+          >
+          </NuxtButton>
+        </SiteLink>
       </template>
 
       <!-- Image slot -->

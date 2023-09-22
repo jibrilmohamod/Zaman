@@ -17,17 +17,16 @@
     <div class="container m-auto px-2 h-fit">
       <h4 class="xl:w-2/4 xl:text-4xl py-5 text-2xl uppercase xl:pb-16 xl:pt-12">
         Enjoy a diverse culinary adventure with our
-        <NuxtLink class="text-[#DD5903] cursor-pointer border-button">
+        <SiteLink class="text-[#DD5903] cursor-pointer border-button">
           breakfast
-        </NuxtLink>
+        </SiteLink>
         ,
-        <NuxtLink class="text-[#DD5903] cursor-pointer border-button"> lunch</NuxtLink> ,
+        <SiteLink class="text-[#DD5903] cursor-pointer border-button"> lunch</SiteLink> ,
         and
-        <NuxtLink class="text-[#DD5903] cursor-pointer border-button">dinner</NuxtLink>
+        <SiteLink class="text-[#DD5903] cursor-pointer border-button">dinner</SiteLink>
         options, providing something providing something delightful for every moment of
         the day.
       </h4>
-
       <!-- Menu Categories  links -->
       <div class="">
         <div class="lg:flex gap-16">
@@ -56,14 +55,14 @@
               featuring a delightful array of dishes to kickstart your morning with flavor
               and energy.
             </p>
-            <NuxtLink
+            <SiteLink
               :to="`/menu/${BreakfastMenu.slug}`"
               class="flex justify-center xl:justify-normal pb-5"
             >
               <!-- title  -->
               <NuxtButton :name="` Explore ${BreakfastMenu.name}`" class="text-white">
               </NuxtButton>
-            </NuxtLink>
+            </SiteLink>
           </div>
         </div>
 
@@ -92,14 +91,14 @@
               dishes that cater to every palate, ensuring a memorable dining experience
               for all our guests.
             </p>
-            <NuxtLink
+            <SiteLink
               :to="`/menu/${MainMenu.slug}`"
               class="flex justify-center xl:justify-normal pb-3"
             >
               <!-- title  -->
               <NuxtButton :name="` Explore ${MainMenu.name}`" class="text-white">
               </NuxtButton>
-            </NuxtLink>
+            </SiteLink>
           </div>
           <div>
             <NuxtImg
@@ -142,14 +141,14 @@
               that includes everything from classics to innovative creations, ensuring the
               perfect beverage pairing for your dining pleasure.
             </p>
-            <NuxtLink
+            <SiteLink
               :to="`/menu/${Beverages.slug}`"
               class="flex justify-center xl:justify-normal pb-5"
             >
               <!-- title  -->
               <NuxtButton :name="` Explore ${Beverages.name}`" class="text-white">
               </NuxtButton>
-            </NuxtLink>
+            </SiteLink>
           </div>
         </div>
       </div>
