@@ -11,7 +11,7 @@ export default defineEventHandler((event) => {
      {
       BreakfastCombos: {
        name: "Breakfast Combos",
-       image: "breakfast_combos_image_url.jpg",
+       image: "v1694095332/2O0A2492_xhfbyj.webp",
        items: [
         {
          name: "Healthy Breakfast",
@@ -617,7 +617,8 @@ export default defineEventHandler((event) => {
      {
       HotBeverages: {
        name: "Hot Beverages",
-       image: "hot_beverages_image_url.jpg",
+       image:
+        "v1695394560/side-view-two-cups-coffee-cookies-cinnamon-limes-old-newspaper-dark-surface_gdcwvf.webp",
        items: [
         {
          name: "Cafe Mocha",
@@ -749,7 +750,7 @@ export default defineEventHandler((event) => {
       },
       Lemonades: {
        name: "Lemonades",
-       image: "v1695223483/2O0A8690_vkzfnp.webp",
+       image: "v1695394554/glass-fresh-lemonade-wooden-table_c2tg42.webp",
        items: [
         {
          name: "Kiwi",
@@ -785,7 +786,7 @@ export default defineEventHandler((event) => {
       },
       Milkshakes: {
        name: "Milkshakes",
-       image: "v1695223483/2O0A8690_vkzfnp.webp",
+       image: "v1695394559/thee-delicious-ice-cream-with-straw_1_ohkdua.webp",
        items: [
         {
          name: "Chocolate",
@@ -821,7 +822,8 @@ export default defineEventHandler((event) => {
       },
       Smoothies: {
        name: "Smoothies",
-       image: "v1695223483/2O0A8690_vkzfnp.webp",
+       image:
+        "v1695394553/refreshing-tropical-cocktail-atop-wooden-table-generated-by-ai_rb4rxr.webp",
        items: [
         {
          name: "Mango",
@@ -857,7 +859,8 @@ export default defineEventHandler((event) => {
       },
       Coladas: {
        name: "Coladas",
-       image: "v1695223483/2O0A8690_vkzfnp.webp",
+       image:
+        "v1695394561/bright-umbrella-decorated-cocktails-lime-coconut-milk-with-straw_t1ashp.webp",
        items: [
         {
          name: "Strawberry",
@@ -881,7 +884,7 @@ export default defineEventHandler((event) => {
       },
       Palma: {
        name: "Palma",
-       image: "v1695223483/2O0A8690_vkzfnp.webp",
+       image: "v1695394554/glasses-with-lemonade-table_st4cyt.webp",
        items: [
         {
          name: "Almond Palma",
@@ -905,7 +908,7 @@ export default defineEventHandler((event) => {
       },
       ClassicMilkshakes: {
        name: "Classic Milkshakes",
-       image: "v1695223483/2O0A8690_vkzfnp.webp",
+       image: "v1695394559/thee-delicious-ice-cream-with-straw_1_ohkdua.webp",
        items: [
         {
          name: "Red Velvet Shake",
