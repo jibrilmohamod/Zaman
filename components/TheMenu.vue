@@ -44,6 +44,7 @@
                      format="webp"
                      alt="menu image"
                      provider="cloudinary"
+                     sizes="sm:100px md:50vw lg:600px"
                      src="v1694007232/side-view-fried-meat-with-french-fries-ketchup_141793-4908_fv2qfo.jpg"
                      class="w-full h-full object-cover object-center rounded-md" />
         </div>
