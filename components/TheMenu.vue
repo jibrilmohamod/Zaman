@@ -58,7 +58,6 @@
     //destructure categories from Beverages
     const { categories } = Beverages;
     const { Coladas, FreshJuices, Palma } = categories[0];
-    console.log(Coladas);
 </script>
 
 <style scoped></style>

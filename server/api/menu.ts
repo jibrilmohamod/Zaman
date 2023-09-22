@@ -526,81 +526,81 @@ export default defineEventHandler((event) => {
        items: [
         {
          name: "Chocolate Cake",
-         ingridients:
+         ingredients:
           "Chocolate cake with chocolate ganache served with vanilla ice cream",
          price: 550,
          image: "v1695223483/2O0A8690_vkzfnp.webp",
         },
         {
          name: "Lemon Cake",
-         ingridients:
+         ingredients:
           "Lemon cake with lemon curd served with vanilla ice cream",
          price: 550,
          image: "v1695223483/2O0A8690_vkzfnp.webp",
         },
         {
          name: "Fruit salad",
-         ingridients: "Fruit salad topped with yoghurt & nuts",
+         ingredients: "Fruit salad topped with yoghurt & nuts",
          price: 500,
          image: "v1695223483/2O0A8690_vkzfnp.webp",
         },
         {
          name: "White Forest Cake",
-         ingridients: "White Forest Cake",
+         ingredients: "White Forest Cake",
          price: 450,
          image: "v1695223483/2O0A8690_vkzfnp.webp",
         },
         {
          name: "Black Forest Cake",
-         ingridients: "Black Forest Cake",
+         ingredients: "Black Forest Cake",
          price: 450,
          image: "v1695223483/2O0A8690_vkzfnp.webp",
         },
         {
          name: "Red Velvet Cake",
-         ingridients: "Red Velvet Cake",
+         ingredients: "Red Velvet Cake",
          price: 450,
          image: "v1695223483/2O0A8690_vkzfnp.webp",
         },
         {
          name: "Banana Split Sundae",
-         ingridients: "Banana Split Sundae",
+         ingredients: "Banana Split Sundae",
          price: 600,
          image: "v1695223483/2O0A8690_vkzfnp.webp",
         },
         {
          name: "Assorted Ice Cream",
-         ingridients: "3 scoops of vanilla, strawberry, chocolate",
+         ingredients: "3 scoops of vanilla, strawberry, chocolate",
          price: 390,
          image: "v1695223483/2O0A8690_vkzfnp.webp",
         },
         {
          name: "Danish Pastry",
-         ingridients: "Danish Pastry",
+         ingredients: "Danish Pastry",
          price: 300,
          image: "v1695223483/2O0A8690_vkzfnp.webp",
         },
         {
          name: "Chocolate Croissant",
-         ingridients: "Chocolate Croissant",
+         ingredients: "Chocolate Croissant",
          price: 280,
          image: "v1695223483/2O0A8690_vkzfnp.webp",
         },
         {
          name: "Plain Croissant",
-         ingridients: "Plain Croissant",
+         ingredients: "Plain Croissant",
          price: 240,
          image: "v1695223483/2O0A8690_vkzfnp.webp",
         },
         {
          name: "Glazed Donuts",
-         ingridients: "Glazed Donuts",
+         ingredients: "Glazed Donuts",
          price: 250,
          image: "v1695223483/2O0A8690_vkzfnp.webp",
         },
         {
          name: "Muffins",
-         ingridients: "Available Flavours: Chocolate chip, Chocolate & Vanilla",
+         ingredients: "Available Flavours: Chocolate chip, Chocolate & Vanilla",
          price: 240,
          image: "v1695223483/2O0A8690_vkzfnp.webp",
         },
