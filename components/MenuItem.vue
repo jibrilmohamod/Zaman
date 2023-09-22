@@ -30,13 +30,14 @@
   </div>
   <div class="py-2 hidden md:block xl:w-[400px] 2xl:w-[480px]">
     <div class="">
-      <NuxtImg src="v1695223477/2O0A2680_t8cqwg.webp"
+      <NuxtImg :src="image"
                :alt="name"
                provider="cloudinary"
                loading="lazy"
+               :modifiers="{ effect: 'colorize:30', color: 'black' }"
                sizes="sm:100px md:50vw lg:600px"
                format="webp"
-               class="object-cover w-full h-[250px] rounded-sm shadow-md shadow-black" />
+               class="object-cover w-full h-[250px] shadow-2xl shadow-black rounded-md" />
     </div>
     <!-- Item Name and Details  -->
     <div class="py-4 min-h-28">

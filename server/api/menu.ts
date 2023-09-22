@@ -17,31 +17,31 @@ export default defineEventHandler((event) => {
          name: "Healthy Breakfast",
          ingredients:
           "Parsley potatoes,poached egg, creamed spinach, avocado, grilled tomato",
-         image: "healthy_breakfast_image_url.jpg",
+         image: "/v1695331622/2O0A2474_kgz8u8.webp",
          price: 700,
         },
         {
          name: "Spinach & Mushroom Omelette",
          ingredients: "Spinach, mushroom, cheese, tomato, onion",
-         image: "spinach_mushroom_omelette_image_url.jpg",
+         image: "v1695331626/2O0A2434_gs2nn6.webp",
          price: 700,
         },
         {
          name: "Spanish Omelette",
          ingredients: "Potatoes, onion, tomato, cheese",
-         image: "spanish_omelette_image_url.jpg",
+         image: "v1695331622/2O0A2430_lr9u2v.webp",
          price: 700,
         },
         {
          name: "Cheese Omelette",
          ingredients: "Cheese, tomato, onion",
-         image: "cheese_omelette_image_url.jpg",
+         image: "v1695331625/2O0A2426_qp51qm.webp",
          price: 700,
         },
         {
          name: "Plain Omelette",
          ingredients: "Eggs, salt, pepper",
-         image: "plain_omelette_image_url.jpg",
+         image: "v1695331625/2O0A2426_qp51qm.webp",
          price: 700,
         },
         {
@@ -53,19 +53,19 @@ export default defineEventHandler((event) => {
         {
          name: "Grilled Vegetable Sandwich",
          ingredients: "Zucchini, eggplant, bell pepper, onion, tomato, cheese",
-         image: "grilled_vegetable_sandwich_image_url.jpg",
+         image: "v1694095367/2O0A2629_o6c0sg.webp",
          price: 700,
         },
         {
          name: "Chicken & Waffles",
          ingredients: "Chicken, waffles, maple syrup",
-         image: "chicken_waffles_image_url.jpg",
+         image: "v1695331622/2O0A2412_gsekn5.webp",
          price: 700,
         },
         {
          name: "Pancakes",
          ingredients: "Pancakes, maple syrup",
-         image: "pancakes_image_url.jpg",
+         image: "v1695331628/2O0A2465_ip4hug.webp",
          price: 500,
         },
         {
@@ -93,20 +93,20 @@ export default defineEventHandler((event) => {
          name: "Chapati Breakfast",
          ingredients:
           "Omelette, spinach, 2 beef sausages, grilled tomato, chapati",
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image: "v1694095366/2O0A2619_zwoukc.webp",
          price: 700,
         },
         {
          name: "Chapati Saldato",
          ingredients:
           "2 chapatis served with a choice of liver or boiled chunks of goat meat (ESBESSO)",
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image: "v1694095366/2O0A2619_zwoukc.webp",
          price: 700,
         },
         {
          name: "Caramelized Beef Sandwich",
          ingredients: "Caramelized beef, cheese, tomato, onion",
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image: "v1694095330/2O0A2540_gat18j.webp",
          price: 700,
         },
         {
@@ -125,7 +125,7 @@ export default defineEventHandler((event) => {
         {
          name: "BBQ Chicken & Cheese Sandwich",
          ingredients: "BBQ chicken, cheese, tomato, onion",
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image: "v1694095330/2O0A2540_gat18j.webp",
          price: 700,
         },
         {
@@ -203,13 +203,13 @@ export default defineEventHandler((event) => {
          name: "Stir Fried Chicken Noodles",
          ingredients:
           "Chicken, noodles, vegetables topped with parmesan cheese",
-         image: "stir_fried_chicken_noodles_image_url.jpg",
+         image: "v1695331640/2O0A2705_gyditq.webp",
          price: 950,
         },
         {
          name: "Stir Fried Beef Noodles",
          ingredients: "Beef, noodles, vegetables topped with parmesan cheese",
-         image: "stir_fried_beef_noodles_image_url.jpg",
+         image: "v1695331640/2O0A2705_gyditq.webp",
          price: 950,
         },
        ],
@@ -242,14 +242,14 @@ export default defineEventHandler((event) => {
          name: "Seared Jamaican Jerk Chicken",
          ingredients:
           "Marinated with carribean spices, grilled just right, served with any side of your choosing",
-         image: "seared_jamaican_jerk_chicken_image_url.jpg",
+         image: "v1695331636/2O0A2601_dgsmxz.webp",
          price: 1100,
         },
         {
          name: "Seared Herb Marinated Chicken",
          ingredients:
           "Marinated with herbs, grilled just right, served with any side of your choosing",
-         image: "seared_herb_marinated_chicken_image_url.jpg",
+         image: "v1695331636/2O0A2601_dgsmxz.webp",
          price: 1100,
         },
         {
@@ -300,20 +300,20 @@ export default defineEventHandler((event) => {
         {
          name: "Alesso",
          ingredients: "Boiled Goat meat",
-         image: "alesso_image_url.jpg",
+         image: "v1695331642/2O0A2755_jexm2v.webp",
          price: 1200,
         },
         {
          name: "Arosto",
          ingredients: "Fried Goat meat",
-         image: "arosto_image_url.jpg",
+         image: "v1694295166/2O0A2761_ultmgm.webp",
          price: 1200,
         },
         {
          name: "Chicken Mandi",
          ingredients:
           "Chicken cooked in a tomato based sauce, served with rice",
-         image: "chicken_mandi_image_url.jpg",
+         image: "v1695331653/2O0A8584_vtxtca.webp",
          price: 1600,
         },
         {
@@ -327,7 +327,7 @@ export default defineEventHandler((event) => {
          name: "Chicken Haneed",
          ingredients:
           "Chicken cooked in a tomato based sauce, served with rice",
-         image: "chicken_haneed_image_url.jpg",
+         image: "v1694095370/2O0A8581_hixct3.webp",
          price: 1600,
         },
        ],
@@ -340,21 +340,21 @@ export default defineEventHandler((event) => {
          name: "Beef Fillet Hunter Style",
          ingredients:
           "Marinated beef fillet cooked to your liking, served with your choice of side",
-         image: "beef_fillet_hunter_style_image_url.jpg",
+         image: "v1694095371/2O0A2802_tu18u8.webp",
          price: 1200,
         },
         {
          name: "Beef Fillet Minute Steak",
          ingredients:
           "Marinated beef fillet cooked to your liking, topped with onions & mushrooms, served with your choice of side",
-         image: "beef_fillet_minute_steak_image_url.jpg",
+         image: "v1694295166/2O0A2819_bmuugk.webp",
          price: 1200,
         },
         {
          name: "Beef Fillet Cafe de Paris",
          ingredients:
           "Marinated beef fillet cooked to your liking, topped with cafe de paris sauce, served with your choice of side",
-         image: "beef_fillet_cafe_de_paris_image_url.jpg",
+         image: "v1694295166/2O0A2821_rnik6k.webp",
          price: 1200,
         },
        ],
@@ -367,26 +367,26 @@ export default defineEventHandler((event) => {
          name: "BBQ Chicken Wings",
          ingredients:
           "Chicken wings marinated in BBQ sauce, served with your choice of side",
-         image: "bbq_chicken_wings_image_url.jpg",
+         image: "v1694095333/2O0A2557_ui2lpn.webp",
          price: 950,
         },
         {
          name: "Meat Samosa (3pcs)",
          ingredients: "Fried pastry filled with minced meat",
-         image: "meat_samosa_image_url.jpg",
+         image: "v1694095338/2O0A2598_arorru.webp",
          price: 400,
         },
         {
          name: "Vegetable Samosa (3pcs)",
          ingredients: "Fried pastry filled with vegetables",
-         image: "vegetable_samosa_image_url.jpg",
+         image: "v1694095338/2O0A2598_arorru.webp",
          price: 300,
         },
         {
          name: "Fish Fingers",
          ingredients:
           "Goujons of lake fish coated with breadcrumbs Served with garlic aioli",
-         image: "fish_fingers_image_url.jpg",
+         image: "v1694095334/2O0A2544_ii161e.webp",
          price: 900,
         },
        ],
@@ -399,35 +399,35 @@ export default defineEventHandler((event) => {
          name: "Cheese Burger",
          ingredients:
           "Beef patty, cheese, tomato, onion, lettuce, served with fries",
-         image: "cheese_burger_image_url.jpg",
+         image: "v1694095363/2O0A2616_lj6pmh.webp",
          price: 800,
         },
         {
          name: "Chicken Cheese Burger",
          ingredients:
           "Chicken patty, cheese, tomato, onion, lettuce, served with fries",
-         image: "chicken_cheese_burger_image_url.jpg",
+         image: "v1694095363/2O0A2616_lj6pmh.webp",
          price: 800,
         },
         {
          name: "Beef & Avocado Burger",
          ingredients:
           "Beef patty, avocado, tomato, onion, lettuce, served with fries",
-         image: "beef_and_avocado_burger_image_url.jpg",
+         image: "v1694095363/2O0A2616_lj6pmh.webp",
          price: 800,
         },
         {
          name: "Chef's Signature Burger",
          ingredients:
           "Beef partie topped with cheese, caramelized onions & mushroom sauce",
-         image: "chefs_signature_burger_image_url.jpg",
+         image: "v1694095363/2O0A2616_lj6pmh.webp",
          price: 800,
         },
         {
          name: "Vegetable Burger",
          ingredients:
           "Vegetable patty, tomato, onion, lettuce, served with fries",
-         image: "vegetable_burger_image_url.jpg",
+         image: "v1694095363/2O0A2616_lj6pmh.webp",
          price: 800,
         },
        ],
@@ -459,32 +459,32 @@ export default defineEventHandler((event) => {
       },
       Sandwiches: {
        name: "Sandwiches",
-       image: "sandwiches_image_url.jpg",
+       image: "v1694095367/2O0A2629_o6c0sg.webp",
        items: [
         {
          name: "Tomato Avocado & Cheese Sandwich",
          ingredients:
           "Fresh tomatoes, avocado, basil mozzarella on toasted breads",
-         image: "tomato_avocado_and_cheese_sandwich_image_url.jpg",
+         image: "v1694095330/2O0A2540_gat18j.webp",
          price: 700,
         },
         {
          name: "Chicken & Cheese & Mayo Sandwich",
          ingredients:
           "Chicken, tomato, lettuce, white or brown toast and cheese",
-         image: "chicken_and_cheese_and_mayo_sandwich_image_url.jpg",
+         image: "v1694095330/2O0A2540_gat18j.webp",
          price: 900,
         },
         {
          name: "Beef Sandwich",
          ingredients: "Beef, tomato, lettuce, white or brown toast and cheese",
-         image: "beef_sandwich_image_url.jpg",
+         image: "v1694095367/2O0A2629_o6c0sg.webp",
          price: 900,
         },
         {
          name: "Grilled Vegetable Sandwich",
          ingredients: "Zucchini, eggplant, bell pepper, onion, tomato, cheese",
-         image: "grilled_vegetable_sandwich_image_url.jpg",
+         image: "v1694095367/2O0A2629_o6c0sg.webp",
          price: 700,
         },
        ],
@@ -529,26 +529,26 @@ export default defineEventHandler((event) => {
          ingredients:
           "Chocolate cake with chocolate ganache served with vanilla ice cream",
          price: 550,
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image: "v1695331647/2O0A2840_pjzcmi.webp",
         },
         {
          name: "Lemon Cake",
          ingredients:
           "Lemon cake with lemon curd served with vanilla ice cream",
          price: 550,
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image: "v1694295166/2O0A2585_unrpoo.webp",
         },
         {
          name: "Fruit salad",
          ingredients: "Fruit salad topped with yoghurt & nuts",
          price: 500,
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image: "v1695331641/2O0A2722_vovhz3.webp",
         },
         {
          name: "White Forest Cake",
          ingredients: "White Forest Cake",
          price: 450,
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image: "v1695331627/2O0A2561_r3znlj.webp",
         },
         {
          name: "Black Forest Cake",
@@ -560,13 +560,13 @@ export default defineEventHandler((event) => {
          name: "Red Velvet Cake",
          ingredients: "Red Velvet Cake",
          price: 450,
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image: "v1694295166/2O0A2585_unrpoo.webp",
         },
         {
          name: "Banana Split Sundae",
          ingredients: "Banana Split Sundae",
          price: 600,
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image: "v1694095371/2O0A8572_smagwh.webp",
         },
         {
          name: "Assorted Ice Cream",
@@ -578,19 +578,19 @@ export default defineEventHandler((event) => {
          name: "Danish Pastry",
          ingredients: "Danish Pastry",
          price: 300,
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image: "v1695331654/2O0A2868_rszlsc.webp",
         },
         {
          name: "Chocolate Croissant",
          ingredients: "Chocolate Croissant",
          price: 280,
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image: "v1695331648/2O0A2859_tegrej.webp",
         },
         {
          name: "Plain Croissant",
          ingredients: "Plain Croissant",
          price: 240,
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image: "v1695331648/2O0A2859_tegrej.webp",
         },
         {
          name: "Glazed Donuts",
@@ -980,7 +980,8 @@ export default defineEventHandler((event) => {
       },
       FreshJuices: {
        name: "Fresh Juices",
-       image: "v1695223483/2O0A8690_vkzfnp.webp",
+       image:
+        "v1695399491/front-view-fresh-fruit-cocktails-with-fresh-fruit-slices-ice-cooling-blue-drink-juice-cocktail-fruit-color_j25pnr.webp",
        items: [
         {
          name: "Orange",
@@ -1034,7 +1035,8 @@ export default defineEventHandler((event) => {
       },
       SignatureDrinks: {
        name: "Signature Drinks",
-       image: "v1695223483/2O0A8690_vkzfnp.webp",
+       image:
+        "v1695399491/front-view-fresh-fruit-cocktails-with-fresh-fruit-slices-ice-cooling-blue-drink-juice-cocktail-fruit-color_j25pnr.webp",
        items: [
         {
          name: "Zaman Special",
@@ -1065,7 +1067,7 @@ export default defineEventHandler((event) => {
          name: "Carribean Breeze",
          ingredients:
           "lime juice, strawberry puree, fresh strawberry , passion puree , mango juice , blueberry",
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image: "v1695331640/2O0A2713_f6iora.webp",
          price: 400,
         },
        ],
