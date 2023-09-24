@@ -47,7 +47,7 @@ export default defineEventHandler((event) => {
         {
          name: "Chicken Avocado & Cheese Sandwich",
          ingredients: "Chicken, avocado, cheese, tomato, onion",
-         image: "chicken_avocado_cheese_sandwich_image_url.jpg",
+         image: "v1694095330/2O0A2540_gat18j.webp",
          price: 700,
         },
         {
@@ -72,21 +72,23 @@ export default defineEventHandler((event) => {
          name: "English Breakfast",
          ingredients:
           "2 eggs cooked to your liking, beef or chicken sausage, beef bacon,baked beans, grilled tomato, toast or pancake",
-         image: "english_breakfast_image_url.jpg",
+         image: "v1695491832/english-breakfast_wwt0pf.webp",
          price: 700,
         },
         {
          name: "Speedy Breakfast",
          ingredients:
           "2 eggs cooked to your liking, beef or chicken sausage, beef macon, baked beans, grilled tomato, toast or pancake",
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image:
+          "v1695491825/english-breakfast-fried-eggs-sausages-zucchini-sweet-peppers_tvikkh.webp",
          price: 700,
         },
         {
          name: "Continental Breakfast",
          ingredients:
           "2 eggs cooked to your liking, beef or chicken sausage, beef macon, baked beans, grilled tomato, toast or pancake",
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image:
+          "v1695491825/english-breakfast-fried-eggs-bacon-sausages-toasted-rye-bread_i6xwtl.webp",
          price: 700,
         },
         {
@@ -112,14 +114,15 @@ export default defineEventHandler((event) => {
         {
          name: "Gourmet Oatmeal Porridge",
          ingredients: "Oatmeal, milk, honey, banana, peanut butter",
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image:
+          "v1695491823/bowl-with-oat-flakes-fruits-bear-shape_n3avut.webp",
          price: 450,
         },
         {
          name: "Somali Breakfast",
          ingredients:
           "3 crepes served with a choice of liver or boiled chunks of goat meat (ESBESSO)",
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image: "v1695448798/2O0A8596_z9prey.webp",
          price: 700,
         },
         {
@@ -131,19 +134,20 @@ export default defineEventHandler((event) => {
         {
          name: "Crepes",
          ingredients: "Crepes, maple syrup",
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image:
+          "v1695491836/pancakes-with-strawberries-jam-chocolate-cream_ifohyj.webp",
          price: 450,
         },
         {
          name: "Fruit Salad with Ice Cream",
          ingredients: "Assorted fresh fruits, ice cream",
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image: "v1695331641/2O0A2722_vovhz3.webp",
          price: 500,
         },
         {
          name: "Garden Salad",
          ingredients: "Lettuce, tomato, cucumber, onion, bell pepper, olives",
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image: "v1695448808/2O0A2448_vsxpk8.webp",
          price: 500,
         },
        ],
@@ -159,45 +163,45 @@ export default defineEventHandler((event) => {
      {
       SaladsandSoups: {
        name: "Salads and Soups",
-       image: "salads_and_soups_image_url.jpg",
+       image: "v1695448808/2O0A2448_vsxpk8.webp",
        items: [
         {
          name: "Garden Salad",
          ingredients: "Lettuce, tomato, cucumber, onion, bell pepper, olives",
-         image: "garden_salad_image_url.jpg",
+         image: "v1695448808/2O0A2448_vsxpk8.webp",
          price: 500,
         },
         {
          name: "Caesar Salad",
          ingredients:
           "Lettuce, croutons, parmesan cheese, served with caesar dressing and grilled chicken",
-         image: "caesar_salad_image_url.jpg",
+         image: "v1695448808/2O0A2470_dlx010.webp",
          price: 500,
         },
         {
          name: "Greek Salad",
          ingredients:
           "Lettuce, tomato, cucumber, onion, bell pepper, olives, feta cheese",
-         image: "greek_salad_image_url.jpg",
+         image: "v1695448807/2O0A2450_jjdgiv.webp",
          price: 500,
         },
         {
          name: "Ginger Butternut Soup",
          ingredients: "Butternut, ginger, cream , served with garlic bread",
-         image: "ginger_butternut_soup_image_url.jpg",
+         image: "v1695448810/2O0A2506_qbrmrb.webp",
          price: 350,
         },
         {
          name: "Cream of Broccoli Capuccino",
          ingredients: "Broccoli, cream, served with garlic bread",
-         image: "cream_of_broccoli_capuccino_image_url.jpg",
+         image: "v1695448788/2O0A2735_pu6ovp.webp",
          price: 350,
         },
        ],
       },
       Noodles: {
        name: "Noodles",
-       image: "noodles_image_url.jpg",
+       image: "v1695331640/2O0A2705_gyditq.webp",
        items: [
         {
          name: "Stir Fried Chicken Noodles",
@@ -216,27 +220,35 @@ export default defineEventHandler((event) => {
       },
       MainCourse: {
        name: "Main Course",
-       image: "main_course_image_url.jpg",
+       image: "v1694095334/2O0A2544_ii161e.webp",
        items: [
         {
          name: "BBQ Beef Short Ribs",
          ingredients:
           "Cooked succulent juicy beef ribs with stoney, ginger and finished with BBQ sauce",
-         image: "bbq_beef_short_ribs_image_url.jpg",
+         image:
+          "v1695491831/hot-grilled-spare-ribs-with-barbecue-sauce-isolated-white-background-ai-generative_bp8qru.webp",
          price: 950,
         },
         {
          name: "Grilled Tilapia Fillet",
          ingredients: "Grilled tilapia fillet served with lemon butter sauce",
-         image: "grilled_tilapia_fillet_image_url.jpg",
+         image: "v1695491835/salmon-steak_xxuofm.webp",
          price: 1000,
         },
         {
          name: "Poached Norwegian Salmon",
          ingredients:
           "Salmon fillet poached in Orange juice and topped with tropical salsa & butternut puree",
-         image: "poached_norwegian_salmon_image_url.jpg",
+         image: "v1695493254/salmon-steak-white-plate_qeyqwf.webp",
          price: 2000,
+        },
+        {
+         name: "Chicken Curry",
+         ingredients:
+          "Chicken fillet cooked in coconut curry sauce, served with your choice of side",
+         image: "v1695448790/2O0A2625_dqhjfc.webp",
+         price: 1000,
         },
         {
          name: "Seared Jamaican Jerk Chicken",
@@ -249,52 +261,45 @@ export default defineEventHandler((event) => {
          name: "Seared Herb Marinated Chicken",
          ingredients:
           "Marinated with herbs, grilled just right, served with any side of your choosing",
-         image: "v1695331636/2O0A2601_dgsmxz.webp",
+         image: "v1695448791/2O0A2589_lvfvit.webp",
          price: 1100,
         },
         {
          name: "Fish Curry",
          ingredients:
           "Fish fillet cooked in coconut curry sauce, served with your choice of side",
-         image: "fish_curry_image_url.jpg",
-         price: 1000,
-        },
-        {
-         name: "Chicken Curry",
-         ingredients:
-          "Chicken fillet cooked in coconut curry sauce, served with your choice of side",
-         image: "chicken_curry_image_url.jpg",
+         image: "v1695448790/2O0A2625_dqhjfc.webp",
          price: 1000,
         },
        ],
       },
       SomaliDishes: {
        name: "Somali Dishes",
-       image: "somali_dishes_image_url.jpg",
+       image: "v1695448803/2O0A8602_swk17r.webp",
        items: [
         {
          name: "Goat Haneed",
          ingredients:
           "Goat meat cooked in a tomato based sauce, served with rice",
-         image: "goat_haneed_image_url.jpg",
+         image: "v1695448805/2O0A8606_itview.webp",
          price: 1800,
         },
         {
          name: "Suqaar",
          ingredients: "Fried Camel meat",
-         image: "suqaar_image_url.jpg",
+         image: "v1695448800/2O0A8599_hkqhs6.webp",
          price: 1200,
         },
         {
          name: "Dailo",
          ingredients: "Fried Camel meat",
-         image: "dailo_image_url.jpg",
+         image: "v1695448805/2O0A8606_itview.webp",
          price: 1200,
         },
         {
          name: "Kostato",
          ingredients: "Fried Camel meat",
-         image: "kostato_image_url.jpg",
+         image: "v1695448805/2O0A8623_vubv7h.webp",
          price: 1200,
         },
         {
@@ -320,7 +325,7 @@ export default defineEventHandler((event) => {
          name: "Goat Mandi",
          ingredients:
           "Goat meat cooked in a tomato based sauce, served with rice",
-         image: "goat_mandi_image_url.jpg",
+         image: "v1695448804/2O0A8609_sblsfs.webp",
          price: 1600,
         },
         {
@@ -334,7 +339,7 @@ export default defineEventHandler((event) => {
       },
       MeatLovers: {
        name: "Meat Lovers",
-       image: "meat_lovers_image_url.jpg",
+       image: "v1694095371/2O0A2802_tu18u8.webp",
        items: [
         {
          name: "Beef Fillet Hunter Style",
@@ -361,7 +366,7 @@ export default defineEventHandler((event) => {
       },
       LightSnacks: {
        name: "Light Snacks",
-       image: "light_snacks_image_url.jpg",
+       image: "v1694095334/2O0A2544_ii161e.webp",
        items: [
         {
          name: "BBQ Chicken Wings",
@@ -393,7 +398,7 @@ export default defineEventHandler((event) => {
       },
       Burgers: {
        name: "Burgers",
-       image: "burgers_image_url.jpg",
+       image: "v1694095363/2O0A2616_lj6pmh.webp",
        items: [
         {
          name: "Cheese Burger",
@@ -434,25 +439,25 @@ export default defineEventHandler((event) => {
       },
       Pasta: {
        name: "Pasta",
-       image: "pasta_image_url.jpg",
+       image: "v1695331640/2O0A2705_gyditq.webp",
        items: [
         {
          name: "Spaghetti Bolognese",
          ingredients: "Spaghetti, minced beef, tomato sauce, parmesan cheese",
-         image: "spaghetti_bolognese_image_url.jpg",
+         image: "v1695448797/2O0A2869_xng41n.webp",
          price: 900,
         },
         {
          name: "Chicken Alfredo",
          ingredients:
           "Fettuccine, chicken, cream, parmesan cheese , penni pasta",
-         image: "chicken_alfredo_image_url.jpg",
+         image: "v1695448788/2O0A2732_zp91hi.webp",
          price: 950,
         },
         {
          name: "Penne Napolitana",
          ingredients: "Penne pasta, tomato sauce, parmesan cheese",
-         image: "penne_napolitana_image_url.jpg",
+         image: "v1695491819/carbonara_vdjlcy.webp",
          price: 950,
         },
        ],
@@ -491,38 +496,38 @@ export default defineEventHandler((event) => {
       },
       Pizza: {
        name: "Pizza",
-       image: "pizza_image_url.jpg",
+       image: "v1695491823/2O0A2718_egtad0.webp",
        items: [
         {
          name: "Margherita",
          ingredients: "Tomato sauce, mozzarella cheese, basil",
-         image: "margherita_image_url.jpg",
+         image: "v1695491823/2O0A2718_egtad0.webp",
          price: "S: 500, M: 800, L: 1000",
         },
         {
          name: "Chicken Hawaiian",
          ingredients: "Tomato sauce, mozzarella cheese, chicken, pineapple",
-         image: "chicken_hawaiian_image_url.jpg",
+         image: "v1695491823/2O0A2718_egtad0.webp",
          price: "S: 500, M: 800, L: 1000",
         },
         {
          name: "Chicken Peri Peri",
          ingredients:
           "Tomato sauce, mozzarella cheese, chicken, peri peri sauce",
-         image: "chicken_peri_peri_image_url.jpg",
+         image: "v1695491823/2O0A2718_egtad0.webp",
          price: "S: 500, M: 800, L: 1000",
         },
         {
          name: "Chicken BBQ",
          ingredients: "Tomato sauce, mozzarella cheese, chicken, BBQ sauce",
-         image: "chicken_bbq_image_url.jpg",
+         image: "v1695491823/2O0A2718_egtad0.webp",
          price: "S: 500, M: 800, L: 1000",
         },
        ],
       },
       Desserts: {
        name: "Desserts",
-       image: "https://i.imgur.com/xY413jF.jpg",
+       image: "v1694095371/2O0A8572_smagwh.webp",
        items: [
         {
          name: "Chocolate Cake",
@@ -554,13 +559,14 @@ export default defineEventHandler((event) => {
          name: "Black Forest Cake",
          ingredients: "Black Forest Cake",
          price: 450,
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image: "v1695491825/black-forest-cakes_xkrsbx.webp",
         },
         {
          name: "Red Velvet Cake",
          ingredients: "Red Velvet Cake",
          price: 450,
-         image: "v1694295166/2O0A2585_unrpoo.webp",
+         image:
+          "v1695491837/front-view-red-cake-slice-fruit-cake-piece-inside-plate-with-fresh-strawberries-grey_x4idfv.webp",
         },
         {
          name: "Banana Split Sundae",
@@ -572,7 +578,8 @@ export default defineEventHandler((event) => {
          name: "Assorted Ice Cream",
          ingredients: "3 scoops of vanilla, strawberry, chocolate",
          price: 390,
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image:
+          "v1695491818/delicious-ice-cream-flavours-arrangement_rjkrr1.webp",
         },
         {
          name: "Danish Pastry",
@@ -596,13 +603,13 @@ export default defineEventHandler((event) => {
          name: "Glazed Donuts",
          ingredients: "Glazed Donuts",
          price: 250,
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image: "v1695331644/2O0A2772_xsudw1.webp",
         },
         {
          name: "Muffins",
          ingredients: "Available Flavours: Chocolate chip, Chocolate & Vanilla",
          price: 240,
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image: "v1695448812/2O0A2570_u1mi9x.webp",
         },
        ],
       },
@@ -623,91 +630,91 @@ export default defineEventHandler((event) => {
         {
          name: "Cafe Mocha",
          ingredients: "Coffee beans, water",
-         image: "upload/v1695223477/2O0A2680_t8cqwg.webp",
+         image: "v1695448792/2O0A2649_u77blp.webp",
          price: 300,
         },
         {
          name: "Cappuccino",
          ingredients: "Coffee beans, water",
-         image: "cappuccino_image_url.jpg",
+         image: "v1695448792/2O0A2649_u77blp.webp",
          price: 250,
         },
         {
          name: "Espresso",
          ingredients: "Coffee beans, water",
-         image: "espresso_image_url.jpg",
+         image: "v1695448792/2O0A2649_u77blp.webp",
          price: 150,
         },
         {
          name: "Hot Chocolate",
          ingredients: "Chocolate, milk",
-         image: "hot_chocolate_image_url.jpg",
+         image: "v1695494882/coffee-cream_fi4b4f.webp",
          price: 250,
         },
         {
          name: "African Tea",
          ingredients: "Tea leaves, milk",
-         image: "african_tea_image_url.jpg",
+         image: "v1695491837/2O0A2642_mjasmg.webp",
          price: 200,
         },
         {
          name: "Masala Tea",
          ingredients: "Tea leaves, milk",
-         image: "masala_tea_image_url.jpg",
+         image: "v1695491837/2O0A2642_mjasmg.webp",
          price: 200,
         },
         {
          name: "Classic Dawa",
          ingredients: "Lemon, honey, ginger",
-         image: "classic_dawa_image_url.jpg",
+         image: "v1695495203/glass-tea-with-flower_wlonrk.webp",
          price: 250,
         },
         {
          name: "Cafe Latte",
          ingredients: "Coffee beans, water",
-         image: "cafe_latte_image_url.jpg",
+         image: "v1695448792/2O0A2649_u77blp.webp",
          price: 250,
         },
         {
          name: "Cafe Americano",
          ingredients: "Coffee beans, water",
-         image: "cafe_americano_image_url.jpg",
+         image: "v1695448792/2O0A2649_u77blp.webp",
          price: 200,
         },
         {
          name: "Chai Latte",
          ingredients: "Tea leaves, milk",
-         image: "chai_latte_image_url.jpg",
+         image: "v1695491837/2O0A2642_mjasmg.webp",
          price: 250,
         },
         {
          name: "English Breakfast Tea",
          ingredients: "Tea leaves, milk",
-         image: "english_breakfast_tea_image_url.jpg",
+         image: "v1695491837/2O0A2642_mjasmg.webp",
          price: 200,
         },
         {
          name: "Camel Tea",
          ingredients: "Tea leaves, milk",
-         image: "camel_tea_image_url.jpg",
+         image: "v1695491837/2O0A2642_mjasmg.webp",
          price: 200,
         },
         {
          name: "Lemon Tea",
          ingredients: "Tea leaves, milk",
-         image: "lemon_tea_image_url.jpg",
+         image: "v1695495203/glass-tea-with-flower_wlonrk.webp",
          price: 150,
         },
         {
          name: "Brew Coffee",
          ingredients: "Coffee beans, water",
-         image: "brew_coffee_image_url.jpg",
+         image: "v1695448792/2O0A2649_u77blp.webp",
          price: 200,
         },
         {
          name: "Black Tea",
          ingredients: "Tea leaves, water",
-         image: "black_tea_image_url.jpg",
+         image: "v1695495203/glass-tea-with-flower_wlonrk.webp",
          price: 150,
         },
        ],
@@ -755,31 +762,31 @@ export default defineEventHandler((event) => {
         {
          name: "Kiwi",
          ingredients: "Kiwi, water",
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image: "v1695331641/2O0A2682_gdqjoe.webp",
          price: 450,
         },
         {
          name: "Strawberry",
          ingredients: "Strawberry, water",
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image: "v1695331641/2O0A2682_gdqjoe.webp",
          price: 450,
         },
         {
          name: "Blueberry",
          ingredients: "Blueberry, water",
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image: "v1695331641/2O0A2682_gdqjoe.webp",
          price: 450,
         },
         {
          name: "Lagoon",
          ingredients: "Lagoon, water",
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image: "v1695331641/2O0A2682_gdqjoe.webp",
          price: 450,
         },
         {
          name: "Classic",
          ingredients: "Lemon, water",
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image: "v1695331641/2O0A2682_gdqjoe.webp",
          price: 450,
         },
        ],
