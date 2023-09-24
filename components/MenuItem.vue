@@ -3,7 +3,7 @@
     <div class=" justify-between gap-2 flex ">
       <!-- Item Image  -->
       <div class="">
-        <NuxtImg src="v1695223477/2O0A2680_t8cqwg.webp"
+        <NuxtImg :src="image"
                  :alt="name"
                  provider="cloudinary"
                  loading="lazy"
