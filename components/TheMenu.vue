@@ -14,13 +14,14 @@
         </h4>
         <!-- loop through menu categories -->
         <div class="md:flex">
-            <MenuCategory v-for="category in [Coladas, FreshJuices, Palma]"
+            <MenuCategory v-for="category in [Desserts, Sandwiches, SomaliDishes]"
                           key="index"
                           :name="category.name"
                           class="basis-1/3">
                 <!-- loop through menu items and add a dollar sign to price and  show only 5 items in each category -->
                 <MenuItem v-for="item in category.items.slice(0, 3)"
                           :key="item.id"
+                          :image="item.image"
                           :name="item.name"
                           :ingredients="item.ingredients"
                           :price="item.price">
@@ -57,8 +58,10 @@
     // destructure menu categories from menu
     const { BreakfastMenu, MainMenu, Beverages } = menu.value;
     //destructure categories from Beverages
-    const { categories } = Beverages;
-    const { Coladas, FreshJuices, Palma } = categories[0];
+    const { categories } = MainMenu;
+    console.log(categories);
+    const { Desserts, Sandwiches, SomaliDishes } = categories[0];
+    console.log(Desserts);
 </script>
 
 <style scoped></style>
