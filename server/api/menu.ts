@@ -726,31 +726,31 @@ export default defineEventHandler((event) => {
         {
          name: "Iced Latte",
          ingredients: "Coffee beans, water",
-         image: "iced_latte_image_url.jpg",
+         image: "v1695574535/various-kinds-iced-coffee_128282-695_dclekk.webp",
          price: 300,
         },
         {
          name: "Iced Mocha",
          ingredients: "Coffee beans, water",
-         image: "iced_mocha_image_url.jpg",
+         image: "v1695574535/various-kinds-iced-coffee_128282-695_dclekk.webp",
          price: 300,
         },
         {
          name: "Iced Cappuccino",
          ingredients: "Coffee beans, water",
-         image: "iced_cappuccino_image_url.jpg",
+         image: "v1695574535/various-kinds-iced-coffee_128282-695_dclekk.webp",
          price: 300,
         },
         {
          name: "Iced Tea",
          ingredients: "Tea leaves, milk",
-         image: "iced_tea_image_url.jpg",
+         image: "v1695574535/various-kinds-iced-coffee_128282-695_dclekk.webp",
          price: 300,
         },
         {
          name: "Iced Vanilla Tea",
          ingredients: "Tea leaves, milk",
-         image: "iced_vanilla_tea_image_url.jpg",
+         image: "v1695574535/various-kinds-iced-coffee_128282-695_dclekk.webp",
          price: 300,
         },
        ],
@@ -762,31 +762,31 @@ export default defineEventHandler((event) => {
         {
          name: "Kiwi",
          ingredients: "Kiwi, water",
-         image: "v1695331641/2O0A2682_gdqjoe.webp",
+         image: "v1695223477/2O0A2680_t8cqwg.webp",
          price: 450,
         },
         {
          name: "Strawberry",
          ingredients: "Strawberry, water",
-         image: "v1695331641/2O0A2682_gdqjoe.webp",
+         image: "v1695223477/2O0A2680_t8cqwg.webp",
          price: 450,
         },
         {
          name: "Blueberry",
          ingredients: "Blueberry, water",
-         image: "v1695331641/2O0A2682_gdqjoe.webp",
+         image: "v1695223477/2O0A2680_t8cqwg.webp",
          price: 450,
         },
         {
          name: "Lagoon",
          ingredients: "Lagoon, water",
-         image: "v1695331641/2O0A2682_gdqjoe.webp",
+         image: "v1695223477/2O0A2680_t8cqwg.webp",
          price: 450,
         },
         {
          name: "Classic",
          ingredients: "Lemon, water",
-         image: "v1695331641/2O0A2682_gdqjoe.webp",
+         image: "v1695223477/2O0A2680_t8cqwg.webp",
          price: 450,
         },
        ],
@@ -798,31 +798,36 @@ export default defineEventHandler((event) => {
         {
          name: "Chocolate",
          ingredients: "Chocolate, milk",
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image:
+          "v1695574535/stock-photo-strawberry-chocolate-and-vanilla-milkshake-with-whipped-cream-isolated-on-white-background-1026002200_salrdl.webp",
          price: 400,
         },
         {
          name: "Strawberry",
          ingredients: "Strawberry, milk",
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image:
+          "v1695574535/stock-photo-strawberry-chocolate-and-vanilla-milkshake-with-whipped-cream-isolated-on-white-background-1026002200_salrdl.webp",
          price: 400,
         },
         {
          name: "Vanilla",
          ingredients: "Vanilla, milk",
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image:
+          "v1695574535/stock-photo-strawberry-chocolate-and-vanilla-milkshake-with-whipped-cream-isolated-on-white-background-1026002200_salrdl.webp",
          price: 400,
         },
         {
          name: "Mango",
          ingredients: "Mango, milk",
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image:
+          "v1695574535/stock-photo-strawberry-chocolate-and-vanilla-milkshake-with-whipped-cream-isolated-on-white-background-1026002200_salrdl.webp",
          price: 400,
         },
         {
          name: "Coconut",
          ingredients: "Coconut, milk",
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image:
+          "v1695574535/stock-photo-strawberry-chocolate-and-vanilla-milkshake-with-whipped-cream-isolated-on-white-background-1026002200_salrdl.webp",
          price: 400,
         },
        ],
@@ -835,31 +840,36 @@ export default defineEventHandler((event) => {
         {
          name: "Mango",
          ingredients: "Mango, milk",
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image:
+          "/v1695574535/variety-fruit-juices-fruit-smoothies_434193-3549_hkd3i4.webp",
          price: 450,
         },
         {
          name: "Strawberry",
          ingredients: "Strawberry, milk",
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image:
+          "/v1695574535/variety-fruit-juices-fruit-smoothies_434193-3549_hkd3i4.webp",
          price: 450,
         },
         {
          name: "Blueberry",
          ingredients: "Blueberry, milk",
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image:
+          "/v1695574535/variety-fruit-juices-fruit-smoothies_434193-3549_hkd3i4.webp",
          price: 450,
         },
         {
          name: "Banana Ginger",
          ingredients: "Banana, ginger, milk",
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image:
+          "/v1695574535/variety-fruit-juices-fruit-smoothies_434193-3549_hkd3i4.webp",
          price: 450,
         },
         {
          name: "Tropical",
          ingredients: "Mango, pineapple, milk",
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image:
+          "/v1695574535/variety-fruit-juices-fruit-smoothies_434193-3549_hkd3i4.webp",
          price: 450,
         },
        ],
@@ -872,19 +882,22 @@ export default defineEventHandler((event) => {
         {
          name: "Strawberry",
          ingredients: "Strawberry, milk",
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image:
+          "/v1695574535/variety-fruit-juices-fruit-smoothies_434193-3549_hkd3i4.webp",
          price: 450,
         },
         {
          name: "Passion",
          ingredients: "Passion, milk",
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image:
+          "/v1695574535/variety-fruit-juices-fruit-smoothies_434193-3549_hkd3i4.webp",
          price: 450,
         },
         {
          name: "Pina Colada",
          ingredients: "Pineapple, milk",
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image:
+          "/v1695574535/variety-fruit-juices-fruit-smoothies_434193-3549_hkd3i4.webp",
          price: 450,
         },
        ],
@@ -896,19 +909,22 @@ export default defineEventHandler((event) => {
         {
          name: "Almond Palma",
          ingredients: "Almond, milk",
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image:
+          "/v1695574535/variety-fruit-juices-fruit-smoothies_434193-3549_hkd3i4.webp",
          price: 300,
         },
         {
          name: "Raspberry Palma",
          ingredients: "Raspberry milk",
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image:
+          "/v1695574535/variety-fruit-juices-fruit-smoothies_434193-3549_hkd3i4.webp",
          price: 300,
         },
         {
          name: "Hibiscus Palma",
          ingredients: "Hibiscus, milk",
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image:
+          "/v1695574535/variety-fruit-juices-fruit-smoothies_434193-3549_hkd3i4.webp",
          price: 300,
         },
        ],
@@ -920,68 +936,79 @@ export default defineEventHandler((event) => {
         {
          name: "Red Velvet Shake",
          ingredients: "Red velvet, milk",
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image:
+          "/v1695574535/variety-fruit-juices-fruit-smoothies_434193-3549_hkd3i4.webp",
          price: 450,
         },
         {
          name: "Oreo Shake",
          ingredients: "Oreo, milk",
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image:
+          "/v1695574535/variety-fruit-juices-fruit-smoothies_434193-3549_hkd3i4.webp",
          price: 450,
         },
         {
          name: "Kit Kat Shake",
          ingredients: "Kit Kat, milk",
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image:
+          "/v1695574535/variety-fruit-juices-fruit-smoothies_434193-3549_hkd3i4.webp",
          price: 450,
         },
         {
          name: "Malteser Shake",
          ingredients: "Malteser, milk",
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image:
+          "/v1695574535/variety-fruit-juices-fruit-smoothies_434193-3549_hkd3i4.webp",
          price: 450,
         },
         {
          name: "M&M Shake",
          ingredients: "M&M, milk",
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image:
+          "/v1695574535/variety-fruit-juices-fruit-smoothies_434193-3549_hkd3i4.webp",
          price: 450,
         },
         {
          name: "Hydrabad Shake",
          ingredients: "Hydrabad, milk",
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image:
+          "/v1695574535/variety-fruit-juices-fruit-smoothies_434193-3549_hkd3i4.webp",
          price: 450,
         },
         {
          name: "Espresso Shake",
          ingredients: "Espresso, milk",
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image:
+          "/v1695574535/variety-fruit-juices-fruit-smoothies_434193-3549_hkd3i4.webp",
          price: 450,
         },
         {
          name: "Caramel Shake",
          ingredients: "Caramel, milk",
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image:
+          "/v1695574535/variety-fruit-juices-fruit-smoothies_434193-3549_hkd3i4.webp",
          price: 450,
         },
         {
          name: "Pistachio Shake",
          ingredients: "Pistachio, milk",
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image:
+          "/v1695574535/variety-fruit-juices-fruit-smoothies_434193-3549_hkd3i4.webp",
          price: 450,
         },
         {
          name: "Mint Cool Shake",
          ingredients: "Mint, milk",
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image:
+          "/v1695574535/variety-fruit-juices-fruit-smoothies_434193-3549_hkd3i4.webp",
          price: 450,
         },
         {
          name: "Tropical Shake",
          ingredients: "Tropical, milk",
          price: 450,
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image:
+          "/v1695574535/variety-fruit-juices-fruit-smoothies_434193-3549_hkd3i4.webp",
         },
        ],
       },
@@ -993,49 +1020,57 @@ export default defineEventHandler((event) => {
         {
          name: "Orange",
          ingredients: "Orange, water",
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image:
+          "/v1695574535/variety-fruit-juices-fruit-smoothies_434193-3549_hkd3i4.webp",
          price: 400,
         },
         {
          name: "Mango",
          ingredients: "Mango, water",
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image:
+          "/v1695574535/variety-fruit-juices-fruit-smoothies_434193-3549_hkd3i4.webp",
          price: 330,
         },
         {
          name: "Pineapple & Mint",
          ingredients: "Pineapple, mint, water",
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image:
+          "/v1695574535/variety-fruit-juices-fruit-smoothies_434193-3549_hkd3i4.webp",
          price: 330,
         },
         {
          name: "Watermelon",
          ingredients: "Watermelon, water",
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image:
+          "/v1695574535/variety-fruit-juices-fruit-smoothies_434193-3549_hkd3i4.webp",
          price: 330,
         },
         {
          name: "Carrot",
          ingredients: "Carrot, water",
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image:
+          "/v1695574535/variety-fruit-juices-fruit-smoothies_434193-3549_hkd3i4.webp",
          price: 330,
         },
         {
          name: "Cocktail",
          ingredients: "Orange, mango, pineapple, water",
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image:
+          "/v1695574535/variety-fruit-juices-fruit-smoothies_434193-3549_hkd3i4.webp",
          price: 350,
         },
         {
          name: "Signature Mango & Passion",
          ingredients: "Mango, passion, water",
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image:
+          "/v1695574535/variety-fruit-juices-fruit-smoothies_434193-3549_hkd3i4.webp",
          price: 330,
         },
         {
          name: "Signature Orange & Carrot",
          ingredients: "Orange, carrot, water",
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image:
+          "/v1695574535/variety-fruit-juices-fruit-smoothies_434193-3549_hkd3i4.webp",
          price: 330,
         },
        ],
@@ -1048,26 +1083,30 @@ export default defineEventHandler((event) => {
         {
          name: "Zaman Special",
          ingredients: "Milk, oats, mix berries, peanut, honey",
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image:
+          "/v1695574535/variety-fruit-juices-fruit-smoothies_434193-3549_hkd3i4.webp",
          price: 500,
         },
         {
          name: "Avo Spin",
          ingredients: "Avocado, spinach, milk, banana",
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image:
+          "/v1695574535/variety-fruit-juices-fruit-smoothies_434193-3549_hkd3i4.webp",
          price: 400,
         },
         {
          name: "Green Delight",
          ingredients:
           "Spinach, banana,pineapple, Kale,ginger, cucumber, lemon,chia seeds, lime",
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image:
+          "/v1695574535/variety-fruit-juices-fruit-smoothies_434193-3549_hkd3i4.webp",
          price: 400,
         },
         {
          name: "Carrot & Pawpaw",
          ingredients: "Carrot, pawpaw, ginger, lemon, honey",
-         image: "v1695223483/2O0A8690_vkzfnp.webp",
+         image:
+          "/v1695574535/variety-fruit-juices-fruit-smoothies_434193-3549_hkd3i4.webp",
          price: 400,
         },
         {
