@@ -5,15 +5,7 @@ export default defineNuxtConfig({
   "@": resolve(__dirname, "/"),
  },
  devtools: { enabled: true },
- css: ["~/assets/css/main.css", "animate.css/animate.min.css"],
-
- postcss: {
-  plugins: {
-   tailwindcss: {},
-   autoprefixer: {},
-  },
- },
-
+ css: ["animate.css/animate.min.css"],
  //  Nuxt image options for cloudinary
  image: {
   cloudinary: {
@@ -34,7 +26,13 @@ export default defineNuxtConfig({
   twitter: "@mohamodjibril",
   trailingSlash: true,
  },
- modules: ["@nuxt/image", "nuxt-icon", "@formkit/nuxt", "@nuxtseo/module"],
+ modules: [
+  "@nuxt/image",
+  "nuxt-icon",
+  "@formkit/nuxt",
+  "@nuxtseo/module",
+  "@nuxt/ui",
+ ],
 
  app: {
   pageTransition: { name: "page", mode: "out-in" },
