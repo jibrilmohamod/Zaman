@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   "@": resolve(__dirname, "/"),
  },
  devtools: { enabled: true },
- css: ["animate.css/animate.min.css"],
+ css: ["~/assets/css/main.css", "animate.css/animate.min.css"],
  //  Nuxt image options for cloudinary
  image: {
   cloudinary: {
@@ -34,6 +34,10 @@ export default defineNuxtConfig({
   "@nuxt/ui",
  ],
 
+ //nuxt ui
+ colorMode: {
+  preference: "light",
+ },
  app: {
   pageTransition: { name: "page", mode: "out-in" },
   head: {
